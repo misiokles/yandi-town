@@ -1,0 +1,55 @@
+{
+	"yandierogue":
+	{
+		"class": "yandiMagic",
+		"female": false,
+		"images":
+		{
+			"specialtySmall": "yandi/heroes/8Rogue/s-spec136.bmp",
+			"specialtyLarge": "yandi/heroes/8Rogue/spec136.bmp",
+			"large": "yandi/heroes/8Rogue/HPL008CL.bmp",
+			"small": "yandi/heroes/8Rogue/HPS008CL.bmp"
+		},
+		"army":
+		[
+			{ "creature": "yandilv1", "min": 9, "max": 15 },
+			{ "creature": "yandilv2", "min": 6, "max": 9 },
+			{ "creature": "yandilv3", "min": 3, "max": 6 }
+		],
+		"skills":
+		[
+			{ "skill": "intelligence", "level": "basic" },
+			{ "skill": "sorcery", "level": "basic" }
+		],
+		"texts":
+		{
+			"name": "Kun Yao",
+			"biography": "A priest of the Yandi tribe, who studied ancient fire magic and ritual ceremonies from a young age, able to communicate with the flame energy in nature. When crossing through time and space, he was conducting a farming ritual, and the flame energy of the altar protected him and the priests around him. Upon arriving in Jadam, he discovered that the fire energy here was more violent than in the ancient Chinese mythological plane, so he began to integrate the magical systems of Jadam mages and improve his own magical techniques. His 'Flame Domain Barrier' could both defend against enemy attacks and grant flame buffs to allies. His 'Wall of Fire' spell could not only block enemy advances but also burn undead and dark creatures that stepped into it. In battles against dark mages, he used pure fire magic to counter dark curses, successfully breaking their 'Animate Dead' spells, demonstrating powerful magical suppression. He was also a mentor to the young mages of Yandi City, responsible for passing on the integrated fire magic techniques.",
+			"specialty":
+			{
+				"description": "Reduces fire magic cost by 3 points and increases power by 30%. 'Wall of Fire' range +3, duration +2 turns. 'Inferno' adds a 'Combustion' effect to enemy groups. When casting fire magic, there is a 15% chance to consume no mana. Gains an additional 10% bonus per level in the Intelligence skill. Reduces spell casting cost by 2 points (minimum 1).",
+				"tooltip": "Sacred Fire Scorching Art",
+				"name": "Sacred Fire Scorching Art"
+			}
+		},
+		"spellbook":
+		[
+			"haste"
+		],
+		"specialty": {
+			"bonuses": {
+				"intelligence": {
+					"targetSourceType": "SECONDARY_SKILL",
+					"type": "MANA_PER_KNOWLEDGE_PERCENTAGE",
+					"updater": "TIMES_HERO_LEVEL",
+					"val": 10,
+					"valueType": "PERCENT_TO_TARGET_TYPE"
+				},
+				"reduceSpellCost": {
+					"type": "CHANGES_SPELL_COST_FOR_ALLY",
+					"val": 2
+				}
+			}
+		}
+	}
+}

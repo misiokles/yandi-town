@@ -1,0 +1,62 @@
+{
+	"yandiexerxes":
+	{
+		"class": "yandiMagic",
+		"female": true,
+		"images":
+		{
+			"specialtySmall": "yandi/heroes/10Xerxes/s-spec138.bmp",
+			"specialtyLarge": "yandi/heroes/10Xerxes/spec138.bmp",
+			"large": "yandi/heroes/10Xerxes/HPL009CL.bmp",
+			"small": "yandi/heroes/10Xerxes/HPS009CL.bmp"
+		},
+		"army":
+		[
+			{ "creature": "yandilv1", "min": 9, "max": 15 },
+			{ "creature": "yandilv2", "min": 6, "max": 9 },
+			{ "creature": "yandilv3", "min": 3, "max": 6 }
+		],
+		"skills":
+		[
+			{ "skill": "wisdom", "level": "basic" },
+			{ "skill": "mysticism", "level": "basic" }
+		],
+		"texts":
+		{
+			"name": "Shi Lie",
+			"biography": "The prince of the Lionman tribe, a tribe that had been allied with the Yandi tribe for generations and had assisted Yandi in the Battle of Zhuolu. When crossing through time and space, he led the lionman cavalry to guard the rear of the tribe. Attacked by flying magical beasts that emerged from the temporal currents, he used his keen sense of smell and swift speed to slay many beasts, ensuring the safety of the rear. After settling in Jadam, he integrated the riding skills of Jadam's nomadic tribes with the melee advantages of the lionman tribe to form the 'Wind Fang Cavalry Regiment'. He excelled at lightning warfare, leading cavalry units to quickly strike enemy flanks or supply camps. In the decisive battle, he led the Wind Fang Cavalry Regiment in a flanking attack, using the lionmen's biting ability and the cavalry's impact to burn down the enemy's supply camp, directly causing the Chiyou remnant's morale to collapse. He personally slew the cavalry commander of the Chiyou remnant, laying the foundation for the victory.",
+			"specialty":
+			{
+				"description": "Lionman and cavalry units under his command gain +3 speed, +1 attack, and +40% charge damage. When attacking, there is a 15% chance to trigger 'Bite' (dealing an additional 20 damage and applying a 'Bleed' effect, causing 5 damage per turn for 2 turns). After attacking, can move 3 tiles (does not trigger enemy counterattack). Gains the 'Lion's Might' trait (enemy cavalry units have -1 speed).",
+				"tooltip": "Gale Bite Art",
+				"name": "Gale Bite Art"
+			}
+		},
+		"spellbook":
+		[
+			"stoneSkin"
+		],
+		"specialty": {
+			"bonuses": {
+				"reducePower": {
+					"propagator": "BATTLE_WIDE",
+					"limiters": [ "OPPOSITE_SIDE" ],
+					"subtype": "primarySkill.spellpower",
+					"type": "PRIMARY_SKILL",
+					"val": -15,
+					"valueType": "PERCENT_TO_BASE",
+					"updater": {
+						"valPer20": -10,
+						"stepSize": 1,
+						"type": "GROWS_WITH_LEVEL"
+					}
+				},
+				"mana": {
+					"type": "MANA_REGENERATION",
+					"val": 100,
+					"duration": "PERMANENT"
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,65 @@
+{
+	"yandiejoseph":
+	{
+		"class": "yandiMight",
+		"female": false,
+		"images":
+		{
+			"specialtySmall": "yandi/heroes/1Joseph/s-spec129.bmp",
+			"specialtyLarge": "yandi/heroes/1Joseph/spec129.bmp",
+			"large": "yandi/heroes/1Joseph/HPL006EL.bmp",
+			"small": "yandi/heroes/1Joseph/HPS006EL.bmp"
+		},
+		"army":
+		[
+			{ "creature": "yandilv1", "min": 9, "max": 15 },
+			{ "creature": "yandilv2", "min": 6, "max": 9 },
+			{ "creature": "yandilv3", "min": 3, "max": 6 }
+		],
+		"skills":
+		[
+			{ "skill": "leadership", "level": "basic" },
+			{ "skill": "tactics", "level": "basic" }
+		],
+		"spellbook":
+		[
+			"bless"
+		],
+		"texts":
+		{
+			"name": "Baicao Xun",
+			"biography": "A farming expert of the Yandi tribe, whose ancestors were core members who followed Shennong in tasting a hundred herbs and teaching farming techniques. He has a high sensitivity to soil and climate, able to accurately determine the suitable environment for different crops. After crossing to Jadam, he discovered that although the soil of the volcanic plain was fertile, the dry climate and large temperature difference between day and night made it difficult for Chinese crops to adapt. He led the farming team through repeated experiments, hybridizing Chinese grain seeds with native Jadam plants to develop new crops such as 'Yan Grain' and 'Fire Wheat' that combined high yield and drought resistance. He also drew on Mochen's earth magic to improve soil structure through magical means, enhancing the crops' resistance to pests and diseases. In the early days of Yandi City, it was the high-yield crops he cultivated that solved the food crisis for the tribe and the indigenous people, laying the material foundation for the subsequent rise of their power. He also taught farming techniques to the indigenous tribes, promoting the integration of the two peoples.",
+			"specialty":
+			{
+				"description": "Doubles resource production and creature growth in the hero's town. All creatures under the hero's command gain +1 speed, and creatures of good alignment gain +1 morale.",
+				"tooltip": "Blessed Harvest Enchantment",
+				"name": "Blessed Harvest Enchantment"
+			}
+		},
+		"specialty": {
+			"bonuses": {
+				"speed": {
+					"type": "STACKS_SPEED",
+					"val": 1
+				},
+				"potionMorale": {
+					"type": "MORALE",
+					"val": 1,
+					"valueType": "ADDITIVE_VALUE",
+					"limiters": [ { "type": "CREATURE_ALIGNMENT_LIMITER", "parameters": [ "good" ] } ]
+				},
+				"potionLuck": {
+					"type": "LUCK",
+					"val": 1,
+					"valueType": "ADDITIVE_VALUE",
+					"limiters": [ { "type": "CREATURE_ALIGNMENT_LIMITER", "parameters": [ "neutral" ] } ]
+				},
+				"castsBless": {
+					"type": "ENCHANTER",
+					"subtype": "spell.bless",
+					"val": 3
+				}
+			}
+		}
+	}
+}

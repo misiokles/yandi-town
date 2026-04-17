@@ -1,0 +1,140 @@
+{
+	"yandilv6up2":
+	{
+		"name" :
+		{
+			"plural" : "Youyan Mietian Tuan",
+			"singular" : "Youyan Mietian Tuan"
+		},
+		"advMapAmount" :
+		{
+			 "max" : 10,
+			 "min" : 5
+		},
+		"faction" : "yandi",
+		"aiValue" : 2461,
+		"attack" : 19,
+		"doubleWide" : true,
+                "cost" :
+		{
+			"gold" : 2200
+		},
+		"damage" :
+		{
+			 "max" : 35,
+			 "min" : 20
+		},
+		"defense" : 16,
+		"shots" : 24,
+		"fightValue" : 2333,
+		"graphics" :
+		{
+			
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
+			"animation" : "yandi/creatures/battle/lv6up2.json",
+			"map" : "yandi/creatures/map/lv6up2.json",
+			"iconSmall" : "yandi/creatures/iconsSmall/lv6up2s.bmp",
+			"iconLarge" : "yandi/creatures/iconsBig/lv6up2b.bmp",			
+			"timeBetweenFidgets" : 1,
+			"missile" :
+			{
+				"projectile": "yandi/creatures/projectile/CPRZEAX.def",
+				"attackClimaxFrame" : 7,
+				"offset" :
+				{
+					"upperX" : 38,
+					"upperY" : -65,
+					"middleX" : 36,
+					"middleY" : -59,
+					"lowerX" : 21,
+					"lowerY" : -50
+				},
+				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+			}
+               },
+		"growth" : 2,
+		"hitPoints" : 180,
+		"level" : 6,
+		
+		"sound" :
+		{
+			"attack" : "UXatack.wav",
+			"defend" : "UXdefend.wav",
+			"killed" : "UXkill.wav",
+			"move"   : "UXmove.wav",
+			"wince"  : "UXwince.wav"
+		},
+		"speed" :13,
+		"abilities":
+		{
+			"canFly" : 
+			{	
+			    "type" : "FLYING"	
+			},
+			"doubleAttack" : 
+			{
+				"type" : "FEROCITY",
+				"val" : 1
+			},
+			"regeneration" : 
+			{ 
+			   "type" : "HP_REGENERATION", 
+			   "val" : 50 
+			},
+            "summonGuardians" :
+			{
+				"type" : "SUMMON_GUARDIANS",
+				"subtype" : "creature.yandilv3",
+				"val" : 60
+			},
+			"deathStare" : 
+			{
+				"type" : "DEATH_STARE",
+				"subtype" : "deathStareGorgon",
+				"val" : 10
+			}
+		},
+		"stackExperience" :
+		[
+			{
+				"bonus" :
+				{
+					"subtype" : "primarySkill.attack",
+					"type" : "PRIMARY_SKILL"
+				},
+				"values" : [ 1, 2, 3, 4, 4, 5, 6, 7, 8, 9 ]
+			},	
+			{
+				"bonus" :
+				{
+					"subtype" : "primarySkill.defence",
+					"type" : "PRIMARY_SKILL"
+				},
+				"values" : [ 1, 2, 2, 3, 4, 5, 6, 7, 8, 9 ]
+			},
+			{
+				"bonus" :
+				{
+					"subtype" : "creatureDamageBoth",
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 8, 9 ]
+			},
+			{
+				"bonus" :
+				{
+					"subtype" : "creatureDamageBoth",
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [ 0, 1, 2, 3, 4, 5, 5, 6, 7, 8 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "LEVEL_SPELL_IMMUNITY"				
+				},
+				"values" : [ 0, 0, 0, 0, 0, 1, 1, 1, 1, 1 ]
+			}
+		]	
+	}
+}

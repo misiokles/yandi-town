@@ -1,0 +1,75 @@
+{
+	"yandiemadan":
+	{
+		"class": "yandiMagic",
+		"female": false,
+		"images":
+		{
+			"specialtySmall": "yandi/heroes/4Madan/s-spec132.bmp",
+			"specialtyLarge": "yandi/heroes/4Madan/spec132.bmp",
+			"large": "yandi/heroes/4Madan/HPL006SH.bmp",
+			"small": "yandi/heroes/4Madan/HPS006SH.bmp"
+		},
+		"army":
+		[
+			{ "creature": "yandilv1", "min": 9, "max": 15 },
+			{ "creature": "yandilv2", "min": 6, "max": 9 },
+			{ "creature": "yandilv3", "min": 3, "max": 6 }
+		],
+		"skills":
+		[
+			{ "skill": "leadership", "level": "basic" },
+			{ "skill": "artillery", "level": "basic" }
+		],
+		"texts":
+		{
+			"name": "Sui Ming",
+			"biography": "His ancestors were commanders of the 'Fire Guards' who charged into battle for Yandi during the Battle of Zhuolu, and he was born with a strong affinity for fire. When crossing through time and space, he was leading the guard to protect the tribe's flank when they were attacked by lava monsters drawn into the rift. Wielding his ancestral bronze sword, he ignited the blade with his spiritual power and slew three monsters, carving out a path to survival. After settling in Jadam, he integrated the indigenous 'magical beast taming' techniques with the Chinese 'Fish Scale Formation' tactics to form the 'Flame Blade Legion'. He discovered that Jadam's sulfur ore could enhance flame power, so he had craftsmen incorporate it into weapon forging, creating exclusive weapons like the 'Crimson Flame Blade' and 'Fire Wind Lance'. In the decisive battle, he led the Flame Blade Legion to break through the Chiyou remnant's 'Black Armor Formation', striking directly at the Chiyou remnant leader with his flame longsword. Although he didn't succeed, he successfully disrupted the enemy's deployment. His 'Crimson Flame Burning Blade Art' terrified the undead troops — the fire's burning damage to undead could directly dismantle their regeneration ability.",
+			"specialty":
+			{
+				"description": "Melee troops under his command gain +3 attack, +1 defense, and deal 15 bonus fire damage on attacks. Damage against undead and dark creatures is increased by +30%. There is a 20% chance to trigger a 'Combustion' effect, and after attacking, an additional normal attack may be performed.",
+				"tooltip": "Crimson Flame Burning Blade Art",
+				"name": "Crimson Flame Burning Blade Art"
+			}
+		},
+		"spellbook":
+		[
+			"meteorShower"
+		],
+		"specialty": {
+			"bonuses": {
+				"prayer": {
+					"addInfo": 0,
+					"subtype": "spell.prayer",
+					"type": "SPECIAL_PECULIAR_ENCHANT"
+				},
+				"cure": {
+					"addInfo": 0,
+					"subtype": "spell.cure",
+					"type": "SPECIAL_PECULIAR_ENCHANT"
+				},
+				"stoneSkin": {
+					"subtype": "spell.stoneSkin",
+					"type": "SPECIAL_SPELL_LEV",
+					"updater": "TIMES_HERO_LEVEL",
+					"val": 3
+				},
+				"mandrakeHealth": {
+					"type": "STACK_HEALTH",
+					"val": 5,
+					"limiters": [ {
+						"type": "CREATURE_FACTION_LIMITER",
+						"faction": "yandi"
+					} ]
+				},
+				"healer": {
+					"type": "HEALER",
+					"limiters": [ {
+						"type": "CREATURE_FACTION_LIMITER",
+						"faction": "yandi"
+					} ]
+				}
+			}
+		}
+	}
+}

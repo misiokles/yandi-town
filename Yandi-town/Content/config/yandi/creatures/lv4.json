@@ -1,0 +1,119 @@
+{
+	"yandilv4":
+	{
+		"name" :
+		{
+			"plural" : "Ox-Head Demons",
+			"singular" : "Ox-Head Demon"
+		},
+		"advMapAmount" :
+		{
+			 "max" : 20,
+			 "min" : 10
+		},
+		"faction" : "yandi",
+		"upgrades": ["yandilv4up"],
+		"level" : 4,
+		"attack" : 10,
+		"defense" : 10,
+		"damage" :
+		{
+			 "min" : 6,
+			 "max" : 9
+		},
+		"growth" : 4,
+		"doubleWide" : true,
+		"hitPoints" : 35,
+		"speed" : 10,
+		"fightValue" : 680,
+		"aiValue" : 668,
+		"cost" :
+		{
+			"gold" : 300
+		},
+		"graphics" :
+		{
+			"animation" : "yandi/creatures/battle/lv4.json",
+			"map" : "yandi/creatures/map/lv4.json",
+			"iconSmall" : "yandi/creatures/iconsSmall/lv4s.bmp",
+			"iconLarge" : "yandi/creatures/iconsBig/lv4b.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1,
+				"attack" : 1,
+				"idle" : 10
+			}
+		},
+		"sound" :
+		{
+			"attack": "SWRDATTK.wav",
+			"defend": "SWRDDFND.wav",
+			"killed": "SWRDKILL.wav",
+			"move": "SWRDMOVE.wav",
+			"wince": "SWRDWNCE.wav"
+		},
+		"abilities":
+		{
+			
+			"reduceDefence" :
+			{
+				"type" : "ENEMY_DEFENCE_REDUCTION",
+				"val" : 10
+			}
+		},
+		"stackExperience" :
+		[
+			{
+				"bonus" :
+				{
+					"subtype" : "primarySkill.attack",
+					"type" : "PRIMARY_SKILL"
+				},
+				"values" : [ 1, 2, 2, 3, 4, 5, 6, 6, 7, 8 ]
+			},	
+			{
+				"bonus" :
+				{
+					"subtype" : "primarySkill.defence",
+					"type" : "PRIMARY_SKILL"
+				},
+				"values" : [ 1, 2, 2, 3, 4, 4, 5, 6, 7, 8 ]
+			},
+			{
+				"bonus" :
+				{
+					"subtype" : "creatureDamageBoth",
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 5 ]
+			},
+			{
+				"bonus" :
+				{
+					"subtype" : "creatureDamageBoth",
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 4 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "DOUBLE_DAMAGE_CHANCE"
+				},
+				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]	
+			},
+			{
+				"bonus" : {  "type" : "FEARFUL", "valueType" : "INDEPENDENT_MIN",	"val" : 0	},
+				"values" : [ false,	false,	false,	false,	true,	true,	true,	true, true,	true ]
+			},		
+			{
+				"bonus" :
+				{
+					"type" : "STACKS_SPEED"
+				},
+				"values" : [ 0, 0, 0, 1, 1, 1, 1, 1, 1, 1 ]
+			}
+		]	
+	}
+}

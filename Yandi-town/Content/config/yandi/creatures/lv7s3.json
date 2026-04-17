@@ -1,0 +1,115 @@
+{
+	"yandilv7s3": {
+		"advMapAmount": {"max": 8, "min": 3},
+		"aiValue": 9925,
+		"attack": 35,
+		"cost": {"gold": 9000, "gems": 9},
+		"damage": {"max": 85, "min": 35},
+		"defense": 27,
+		"faction": "yandi",
+		"fightValue": 8454,
+		"graphics": {
+			"animationTime": {"attack": 1, "idle": 10, "walk": 0.8},
+			"animation": "yandi/creatures/battle/lv7s3.json",
+			"map": "yandi/creatures/map/lv7s3.json",
+			"iconSmall": "yandi/creatures/iconsSmall/lv7s3s.bmp",
+			"iconLarge": "yandi/creatures/iconsBig/lv7s3b.bmp",
+			"timeBetweenFidgets": 1,
+			"missile": {
+				"projectile": "yandi/creatures/projectile/shot211.def",
+				"attackClimaxFrame": 7,
+				"offset": {
+					"upperX": 38,
+					"upperY": -65,
+					"middleX": 36,
+					"middleY": -59,
+					"lowerX": 21,
+					"lowerY": -50
+				},
+				"frameAngles": [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+			}
+		},
+		"growth": 1,
+		"shots": 8,
+		"hitPoints": 240,
+		"speed": 14,
+		"doubleWide": false,
+		"level": 7,
+		"name": {"plural": "Rushou Attendants", "singular": "Rushou Attendant"},
+		"sound": {
+			"attack": "TempATTK.wav",
+			"defend": "TempDFND.wav",
+			"killed": "TempDEAD.wav",
+			"move": "TempMOVE.wav",
+			"wince": "TempWNCE.wav"
+		},
+		"abilities": {
+			"king": {
+				"type": "KING",
+				"val": 2
+			},
+			"firstStrike": {
+				"type": "FIRST_STRIKE",
+				"subtype": "damageTypeRanged"
+			},
+			"deathStrike": {
+				"type": "DOUBLE_DAMAGE_CHANCE",
+				"val": 50
+			},
+			"regeneration": {
+				"type": "HP_REGENERATION",
+				"val": 80
+			}
+		},
+		"stackExperience": [
+			{
+				"bonus": {
+					"subtype": "primarySkill.attack",
+					"type": "PRIMARY_SKILL"
+				},
+				"values": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+			},
+			{
+				"bonus": {
+					"subtype": "primarySkill.defence",
+					"type": "PRIMARY_SKILL"
+				},
+				"values": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+			},
+			{
+				"bonus": {
+					"subtype": "creatureDamageBoth",
+					"type": "CREATURE_DAMAGE"
+				},
+				"values": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+			},
+			{
+				"bonus": {
+					"subtype": "creatureDamageBoth",
+					"type": "CREATURE_DAMAGE"
+				},
+				"values": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+			},
+			{
+				"bonus": {
+					"type": "ENCHANTED",
+					"subtype": "spell.prayer"
+				},
+				"values": [0, 0, 0, 1, 1, 2, 2, 3, 3, 3]
+			},
+			{
+				"bonus": {
+					"type": "ENCHANTED",
+					"subtype": "spell.bless"
+				},
+				"values": [0, 0, 0, 1, 1, 2, 2, 3, 3, 3]
+			},
+			{
+				"bonus": {
+					"type": "STACKS_SPEED"
+				},
+				"values": [0, 0, 0, 1, 1, 1, 1, 1, 1, 2]
+			}
+		]
+	}
+}

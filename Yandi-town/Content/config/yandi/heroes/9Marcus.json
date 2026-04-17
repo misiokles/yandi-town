@@ -1,0 +1,62 @@
+{
+	"yandiemarcus":
+	{
+		"class": "yandiMight",
+		"female": false,
+		"images":
+		{
+			"specialtySmall": "yandi/heroes/9Marcus/s-spec137.bmp",
+			"specialtyLarge": "yandi/heroes/9Marcus/spec137.bmp",
+			"large": "yandi/heroes/9Marcus/HPL008SH.bmp",
+			"small": "yandi/heroes/9Marcus/HPS008SH.bmp"
+		},
+		"army":
+		[
+			{ "creature": "yandilv1", "min": 9, "max": 15 },
+			{ "creature": "yandilv2", "min": 6, "max": 9 },
+			{ "creature": "yandilv3", "min": 3, "max": 6 }
+		],
+		"skills":
+		[
+			{
+				"level": "basic",
+				"skill": "offence"
+			},
+			{
+				"level": "basic",
+				"skill": "fireMagic"
+			}
+		],
+		"texts":
+		{
+			"name": "Yan Cang",
+			"biography": "The 38th generation direct descendant of Yandi Shennong, who studied the 'Shennong Flame Canon' from a young age. He possessed both the flame spirit power of ancient rituals and the strategic vision of a great leader, making him the core leader of the tribe during their dimensional crossing. On the night the dimensional portal went out of control, he was presiding over the 'Flame Pivot Heaven Sacrifice' ceremony. Sensing the dark energy erupting from the spatial-temporal rift, he used his own blood essence to activate the core of the altar, the 'Shennong Fire Seed', protecting the tribe's core fighting forces, farming texts, and medical treasures. After surviving countless perils, he arrived at the Jadam volcanic plain. Upon arriving in this strange land, facing the tribe's panic and the hostility of indigenous tribes, he followed his ancestors' way of 'uniting the lords and comforting the people'. He used high-yield grains to save the starving indigenous people, personally led guards to eliminate magma monsters harassing the tribe, and ultimately brokered an alliance between the Yandi tribe and three indigenous tribes. He personally drew the blueprints and supervised the construction of Yandi City, combining Chinese rammed earth techniques with Jadam's fire-resistant magical stones. The city walls were carved with totems of 'Shennong Tasting Herbs' and 'Zhuolu Breaking Chiyou'. The 'Flame Pivot War Drum' stood at the city gate, becoming both a spiritual and defensive pillar for the tribe. In the decisive battle against the Chiyou remnant, he donned the ancestral 'Heaven Burning Armor', wielded the 'Flame Pivot Halberd', and used the 'Flame Pivot Territory Determination Art' to channel the volcanic earth's flame energy, setting up the 'Heaven Burning Barrier'. He withstood the dark mages' 'Undead Plague' and personally led the core forces in the charge, making him the unshakable spiritual and combat center of Yandi City.",
+			"specialty":
+			{
+				"description": "Gains +3 attack and defense. Increases fire magic power by 30%. Units under his command gain +3 morale and +1 luck. Each day, through the Yandi City Flame Pivot Altar, he can add a 'Flame Shield Barrier' effect to one of his cities (+5 city defense, +20% siege damage resistance, immune to dark siege curses). Casting 'Inferno' additionally triggers 'Flame Pivot Deterrence' (enemy front-line units cannot act for 1 turn; undead units suffer 10 points of flame energy erosion immediately).",
+				"tooltip": "Flame Pivot Territory Determination Art",
+				"name": "Flame Pivot Territory Determination Art"
+			}
+		},
+		"specialty": {
+			"creature": "yandilv1",
+			"bonuses": {
+				"resistance": {
+					"type": "MAGIC_RESISTANCE",
+					"val": 10,
+					"valueType": "ADDITIVE_VALUE",
+					"limiters": ["DRAGON_NATURE"]
+				},
+				"regenerate": {
+					"type": "HP_REGENERATION",
+					"val": 50,
+					"limiters": ["DRAGON_NATURE"]
+				},
+				"wideBreath": {
+					"type": "WIDE_BREATH",
+					"limiters": ["DRAGON_NATURE"]
+				}
+			}
+		}
+	}
+}

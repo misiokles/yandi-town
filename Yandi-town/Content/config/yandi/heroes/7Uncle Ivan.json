@@ -1,0 +1,85 @@
+{
+	"yandieuncleivan":
+	{
+		"class": "yandiMagic",
+		"female": false,
+		"images":
+		{
+			"specialtySmall": "yandi/heroes/7Uncle Ivan/s-spec135.bmp",
+			"specialtyLarge": "yandi/heroes/7Uncle Ivan/spec135.bmp",
+			"large": "yandi/heroes/7Uncle Ivan/HPL007PL.bmp",
+			"small": "yandi/heroes/7Uncle Ivan/HPS007PL.bmp"
+		},
+		"army":
+		[
+			{ "creature": "yandilv1", "min": 9, "max": 15 },
+			{ "creature": "yandilv2", "min": 6, "max": 9 },
+			{ "creature": "yandilv3", "min": 3, "max": 6 }
+		],
+		"skills":
+		[
+			{
+				"level": "basic",
+				"skill": "airMagic"
+			},
+			{
+				"level": "basic",
+				"skill": "wisdom"
+			}
+		],
+		"texts":
+		{
+			"name": "Li Ze",
+			"biography": "A covert scout of the Yandi tribe, skilled in stealth, reconnaissance, and assassination. Before crossing through time and space, he was responsible for behind-enemy-lines reconnaissance and intelligence gathering, delivering critical information to the tribe during many crisis moments. Upon arriving in Jadam, he took the initiative to scout the surrounding powers, venturing deep into the Shadow Spiral Mountains to investigate the movements of the undead forces and mapping out the distribution and attitudes of the indigenous tribes. During the confrontation with the Chiyou remnant, he led scout units deep into enemy camps, stealing their battle plans and assassinating several key commanders of the Chiyou remnant, greatly disrupting enemy deployments. His stealth skills were extremely advanced, allowing him to move freely within the sensing range of dark mages and even avoid magical traps. He was the 'hidden agent' of Yandi City, providing covert security for the tribe.",
+			"specialty":
+			{
+				"description": "Scout units have an +80% chance to be invisible, +3 reconnaissance range, and can retreat first when encountering enemies (100% success rate). There is a 20% chance to instantly kill non-hero enemy units during assassination. Reconnaissance can reveal enemy hero skill information.",
+				"tooltip": "Shadow Stealth Art",
+				"name": "Shadow Stealth Art"
+			}
+		},
+		"spellbook":
+		[
+			"lightningBolt"
+		],
+		"specialty": {
+			"bonuses": {
+				"spellcasts": {
+					"type": "CASTS",
+					"val": 3
+				},
+				"airMagic": {
+					"type": "SPELL_DAMAGE",
+					"subtype": "spellSchool.air",
+					"val": 5,
+					"valueType": "BASE_NUMBER",
+					"updater": "TIMES_HERO_LEVEL"
+				},
+				"lightningBolt": {
+					"subtype": "spell.lightningBolt",
+					"type": "SPECIAL_SPELL_LEV",
+					"updater": "TIMES_HERO_LEVEL",
+					"val": 3
+				},
+				"immuneToAir": {
+					"subtype": "spellSchool.air",
+					"type": "SPELL_DAMAGE_REDUCTION",
+					"val": 100,
+					"limiters": [ {
+						"type": "CREATURE_FACTION_LIMITER",
+						"faction": "yandi"
+					} ]
+				},
+				"castlightningBolt": {
+					"type": "SPELL_AFTER_ATTACK",
+					"subtype": "spell.lightningBolt",
+					"val": 100,
+					"limiters": [ {
+						"type": "CREATURE_FACTION_LIMITER",
+						"faction": "yandi"
+					} ]
+				}
+			}
+		}
+	}
+}

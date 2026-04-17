@@ -1,0 +1,85 @@
+{
+	"yandieiser":
+	{
+		"class": "yandiMagic",
+		"female": false,
+		"images":
+		{
+			"specialtySmall": "yandi/heroes/15Iser/s-spec143.bmp",
+			"specialtyLarge": "yandi/heroes/15Iser/spec143.bmp",
+			"large": "yandi/heroes/15Iser/HPL014CL.bmp",
+			"small": "yandi/heroes/15Iser/HPS014CL.bmp"
+		},
+		"army":
+		[
+			{ "creature": "yandilv1", "min": 9, "max": 15 },
+			{ "creature": "yandilv2", "min": 6, "max": 9 },
+			{ "creature": "yandilv3", "min": 3, "max": 6 }
+		],
+		"skills":
+		[
+			{ "skill": "wisdom", "level": "basic" },
+			{ "skill": "logistics", "level": "basic" }
+		],
+		"texts":
+		{
+			"name": "Yu Ning",
+			"biography": "An ancient witchcraft priest of the Yandi tribe, inheriting Shennong's witchcraft secrets, skilled in countering dark curses and applying buffs. Her witchcraft differs from mage magic, focusing more on communication with natural energy, and has a natural countering effect against dark energy. When crossing through time and space, she used her witchcraft to protect the tribe's core texts, preventing them from being destroyed by the temporal currents. When fighting against dark mages, her 'Curse Resistance' witchcraft became an important safeguard for the allied forces, effectively resisting the curse erosion of dark mages. Her 'Weakness Curse' could weaken the combat power of the Chiyou remnant warriors, giving the allied forces an advantage in melee combat. She could also communicate with Jadam's nature spirits through witchcraft, gaining protection from forests and mountains — during reconnaissance, the nature spirits would guide her direction and help avoid danger. She is the core of Yandi City's witchcraft heritage and an important force in resisting dark powers.",
+			"specialty":
+			{
+				"description": "In battle, can grant allies a 'Curse Resistance' buff (30% chance to immune negative status, lasts 3 turns). When casting 'Weakness Curse' on enemies, success rate is increased by +70%, duration is increased by +2 turns. Can cast curses on 3 enemy units simultaneously, and curse effects are enhanced (enemy attack and defense -2, speed -1).",
+				"tooltip": "Moon Spirit Curse Mastery Art",
+				"name": "Moon Spirit Curse Mastery Art"
+			}
+		},
+		"spellbook":
+		[
+			"townPortal"
+		],
+		"specialty": {
+			"bonuses": {
+				"summonGuardians": {
+					"type": "SUMMON_GUARDIANS",
+					"subtype": "creature.yandilv2",
+					"val": 200
+				},
+				"mandrakeHealth": {
+					"type": "STACK_HEALTH",
+					"val": 10,
+					"limiters": [ {
+						"type": "CREATURE_TYPE_LIMITER",
+						"creature": "yandilv2",
+						"includeUpgrades": true
+					} ]
+				},
+				"vinesSpeed": {
+					"type": "STACKS_SPEED",
+					"val": 1,
+					"limiters": [ {
+						"type": "CREATURE_TYPE_LIMITER",
+						"creature": "yandilv2",
+						"includeUpgrades": true
+					} ]
+				},
+				"vinesFirstStrike": {
+					"type": "FIRST_STRIKE",
+					"limiters": [ {
+						"type": "CREATURE_TYPE_LIMITER",
+						"creature": "yandilv2",
+						"includeUpgrades": true
+					} ]
+				},
+				"castsCure": {
+					"type": "ENCHANTER",
+					"subtype": "spell.cure",
+					"val": 3,
+					"limiters": [ {
+						"type": "CREATURE_TYPE_LIMITER",
+						"creature": "yandilv2",
+						"includeUpgrades": true
+					} ]
+				}
+			}
+		}
+	}
+}

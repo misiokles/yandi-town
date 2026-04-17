@@ -1,0 +1,56 @@
+{
+	"yandiesean":
+	{
+		"class": "yandiMight",
+		"female": false,
+		"images":
+		{
+			"specialtySmall": "yandi/heroes/12Sean/s-spec140.bmp",
+			"specialtyLarge": "yandi/heroes/12Sean/spec140.bmp",
+			"large": "yandi/heroes/12Sean/HPL010CL.bmp",
+			"small": "yandi/heroes/12Sean/HPS010CL.bmp"
+		},
+		"army":
+		[
+			{ "creature": "yandilv1", "min": 9, "max": 15 },
+			{ "creature": "yandilv2", "min": 6, "max": 9 },
+			{ "creature": "yandilv3", "min": 3, "max": 6 }
+		],
+		"skills":
+		[
+			{ "skill": "learning", "level": "basic" },
+			{ "skill": "archery", "level": "basic" }
+		],
+		"texts":
+		{
+			"name": "Yun Xi",
+			"biography": "A healer of the Yandi tribe, proficient in herbal medicine and water witchcraft, and one of the core figures of Shennong's medical legacy. When crossing through time and space, she carried a large number of herbal seeds and medical texts, which became an important resource for treating the wounded and coping with the unfamiliar environment in the early days of Yandi City. Upon arriving in Jadam, many tribe members fell ill due to environmental discomfort. During the day, she led healers to gather native herbs, and at night she consulted texts, attempting to combine native herbs with Chinese herbs to develop various effective remedies. Her water healing magic could not only treat physical wounds but also purify the erosion caused by dark energy. When countering the dark mages' curses, her 'Cleansing' spell became a lifeline for the allied forces, as countless soldiers cursed by dark energy regained their combat ability under her treatment. She also established a medical academy in Yandi City, teaching medical knowledge to both the tribe and the indigenous people, earning the respect of all.",
+			"specialty":
+			{
+				"description": "Increases water healing magic effectiveness by 50%. 'Cleansing' can remove all negative status effects from allies and has a 15% chance to grant an 'Immunity to Curse' buff (lasting 2 turns). The First Aid Tent can treat two units simultaneously and restores 5 health points to all allied units each turn.",
+				"tooltip": "Spirit Spring World-Healing Art",
+				"name": "Spirit Spring World-Healing Art"
+			}
+		},
+		"spellbook":
+		[
+			"weakness"
+		],
+		"specialty": {
+			"bonuses": {
+				"gold": {
+					"subtype": "resource.gold",
+					"type": "GENERATE_RESOURCE",
+					"val": 500
+				},
+				"learning": {
+					"targetSourceType": "SECONDARY_SKILL",
+					"type": "HERO_EXPERIENCE_GAIN_PERCENT",
+					"val": 10,
+					"valueType": "PERCENT_TO_BASE",
+					"updater": "TIMES_HERO_LEVEL"
+				}
+			}
+		}
+	}
+}

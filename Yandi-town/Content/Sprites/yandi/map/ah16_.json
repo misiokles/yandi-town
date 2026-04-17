@@ -1,0 +1,180 @@
+{
+    "images": [
+        {
+            "group": 0,
+            "frame": 0,
+            "file": "00080.png"
+        },
+        {
+            "group": 1,
+            "frame": 0,
+            "file": "00090.png"
+        },
+        {
+            "group": 2,
+            "frame": 0,
+            "file": "00100.png"
+        },
+        {
+            "group": 3,
+            "frame": 0,
+            "file": "00110.png"
+        },
+        {
+            "group": 4,
+            "frame": 0,
+            "file": "00120.png"
+        },
+        {
+            "group": 5,
+            "frame": 0,
+            "file": "00080.png"
+        },
+        {
+            "group": 5,
+            "frame": 1,
+            "file": "00081.png"
+        },
+        {
+            "group": 5,
+            "frame": 2,
+            "file": "00082.png"
+        },
+        {
+            "group": 5,
+            "frame": 3,
+            "file": "00083.png"
+        },
+        {
+            "group": 5,
+            "frame": 4,
+            "file": "00084.png"
+        },
+        {
+            "group": 5,
+            "frame": 5,
+            "file": "00085.png"
+        },
+        {
+            "group": 6,
+            "frame": 0,
+            "file": "00090.png"
+        },
+        {
+            "group": 6,
+            "frame": 1,
+            "file": "00091.png"
+        },
+        {
+            "group": 6,
+            "frame": 2,
+            "file": "00092.png"
+        },
+        {
+            "group": 6,
+            "frame": 3,
+            "file": "00093.png"
+        },
+        {
+            "group": 6,
+            "frame": 4,
+            "file": "00094.png"
+        },
+        {
+            "group": 6,
+            "frame": 5,
+            "file": "00095.png"
+        },
+        {
+            "group": 7,
+            "frame": 0,
+            "file": "00100.png"
+        },
+        {
+            "group": 7,
+            "frame": 1,
+            "file": "00101.png"
+        },
+        {
+            "group": 7,
+            "frame": 2,
+            "file": "00102.png"
+        },
+        {
+            "group": 7,
+            "frame": 3,
+            "file": "00103.png"
+        },
+        {
+            "group": 7,
+            "frame": 4,
+            "file": "00104.png"
+        },
+        {
+            "group": 7,
+            "frame": 5,
+            "file": "00105.png"
+        },
+        {
+            "group": 8,
+            "frame": 0,
+            "file": "00110.png"
+        },
+        {
+            "group": 8,
+            "frame": 1,
+            "file": "00111.png"
+        },
+        {
+            "group": 8,
+            "frame": 2,
+            "file": "00112.png"
+        },
+        {
+            "group": 8,
+            "frame": 3,
+            "file": "00113.png"
+        },
+        {
+            "group": 8,
+            "frame": 4,
+            "file": "00114.png"
+        },
+        {
+            "group": 8,
+            "frame": 5,
+            "file": "00115.png"
+        },
+        {
+            "group": 9,
+            "frame": 0,
+            "file": "00120.png"
+        },
+        {
+            "group": 9,
+            "frame": 1,
+            "file": "00121.png"
+        },
+        {
+            "group": 9,
+            "frame": 2,
+            "file": "00122.png"
+        },
+        {
+            "group": 9,
+            "frame": 3,
+            "file": "00123.png"
+        },
+        {
+            "group": 9,
+            "frame": 4,
+            "file": "00124.png"
+        },
+        {
+            "group": 9,
+            "frame": 5,
+            "file": "00125.png"
+        }
+    ],
+    "basepath": "yandi/map/ah16_/"
+}

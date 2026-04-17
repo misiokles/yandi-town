@@ -1,0 +1,80 @@
+{
+	"yandiejacquenas":
+	{
+		"class": "yandiMight",
+		"female": false,
+		"images":
+		{
+			"specialtySmall": "yandi/heroes/5Jacquenas/s-spec133.bmp",
+			"specialtyLarge": "yandi/heroes/5Jacquenas/spec133.bmp",
+			"large": "yandi/heroes/5Jacquenas/HPL007EL.bmp",
+			"small": "yandi/heroes/5Jacquenas/HPS007EL.bmp"
+		},
+		"army":
+		[
+			{ "creature": "yandilv1", "min": 9, "max": 15 },
+			{ "creature": "yandilv2", "min": 6, "max": 9 },
+			{ "creature": "yandilv3", "min": 3, "max": 6 }
+		],
+		"skills":
+		[
+			{
+				"level": "basic",
+				"skill": "archery"
+			},
+			{
+				"level": "basic",
+				"skill": "leadership"
+			}
+		],
+		"texts":
+		{
+			"name": "Xuan Ge",
+			"biography": "An heir of the Yandi tribe's archery family, skilled in making arrows enhanced with witchcraft. Before the crossing, he had achieved the feat of 'a hundred paces to hit a willow, three arrows in a row'. Upon arriving in Jadam, flying magical beasts often harassed the tribe's settlement on the volcanic plain. He led archer units to build 'Fire Watchtowers', killing the beasts with 'Flame Arrows' infused with volcanic sulfur and herbs, solving the tribe's urgent problems. He discovered that Jadam's 'Iron Grain Wood' was extremely hard, so he collaborated with craftsmen to improve the bow's design, creating the 'Black Iron Bow', with range and penetration far exceeding traditional bows. He also borrowed the mages' 'enchantment techniques' to add an 'armor-piercing' effect to his arrows, capable of penetrating the dark mages' magic shields. In the decisive battle, he led the Forest Guard to occupy high ground, accurately shooting dark mages in the back rows with his 'Black Iron Cloud Piercing Art' to prevent them from casting large-scale curse magic. His archer unit became known as the 'Eagle Eye of Yandi City'.",
+			"specialty":
+			{
+				"description": "Archer units under his command gain +5 ammunition and +35% accuracy. Damage against air, mage, and undead units is increased by +30%. Attacks can penetrate one target (damage reduced by 50%).",
+				"tooltip": "Black Iron Cloud Piercing Art",
+				"name": "Black Iron Cloud Piercing Art"
+			}
+		},
+		"spellbook":
+		[
+			"meteorShower"
+		],
+		"specialty": {
+			"creature": "yandilv2",
+			"bonuses": {
+				"speed": {
+					"type": "STACKS_SPEED",
+					"val": 1,
+					"limiters": [ {
+						"type": "CREATURE_FACTION_LIMITER",
+						"faction": "yandi"
+					} ]
+				},
+				"noDistancePenalty": {
+					"type": "NO_DISTANCE_PENALTY",
+					"limiters": [ {
+						"type": "CREATURE_FACTION_LIMITER",
+						"faction": "yandi"
+					} ]
+				},
+				"noMeleePenalty": {
+					"type": "NO_MELEE_PENALTY",
+					"limiters": [ {
+						"type": "CREATURE_FACTION_LIMITER",
+						"faction": "yandi"
+					} ]
+				},
+				"archery": {
+					"subtype": "damageTypeRanged",
+					"targetSourceType": "SECONDARY_SKILL",
+					"type": "PERCENTAGE_DAMAGE_BOOST",
+					"val": 10,
+					"valueType": "PERCENT_TO_BASE"
+				}
+			}
+		}
+	}
+}

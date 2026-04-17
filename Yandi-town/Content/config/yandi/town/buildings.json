@@ -1,0 +1,842 @@
+{
+	"yandi":
+	{
+		"town":
+		{
+			"buildings":
+			{
+				"mageGuild1":
+				{
+					"description": "Visiting heroes who enter the Mage Guild can learn the spells contained within.",
+					"name": "Level 1 Mage Guild",
+					"cost":
+					{
+						"wood": 5,
+						"ore": 5,
+						"gold": 2000
+					}
+				},
+				"mageGuild2":
+				{
+					"description": "Visiting heroes who enter the Mage Guild can learn the spells contained within.",
+					"name": "Level 2 Mage Guild",
+					"cost":
+					{
+						"wood": 4,
+						"mercury": 4,
+						"ore": 4,
+						"sulfur": 4,
+						"crystal": 4,
+						"gems": 4,
+						"gold": 1000
+					}
+				},
+				"mageGuild3":
+				{
+					"description": "Visiting heroes who enter the Mage Guild can learn the spells contained within.",
+					"name": "Level 3 Mage Guild",
+					"cost":
+					{
+						"wood": 5,
+						"mercury": 6,
+						"ore": 6,
+						"sulfur": 5,
+						"crystal": 6,
+						"gems": 6,
+						"gold": 1000
+					}
+				},
+				"mageGuild4":
+				{
+					"description": "Visiting heroes who enter the Mage Guild can learn the spells contained within.",
+					"name": "Level 4 Mage Guild",
+					"cost":
+					{
+						"wood": 5,
+						"mercury": 8,
+						"ore": 8,
+						"sulfur": 5,
+						"crystal": 8,
+						"gems": 8,
+						"gold": 1000
+					}
+				},
+				"mageGuild5":
+				{
+					"description": "Visiting heroes who enter the Mage Guild can learn the spells contained within.",
+					"name": "Level 5 Mage Guild",
+					"cost":
+					{
+						"wood": 5,
+						"mercury": 10,
+						"ore": 5,
+						"sulfur": 10,
+						"crystal": 10,
+						"gems": 10,
+						"gold": 1000
+					}
+				},
+				"tavern":
+				{
+					"name": "Tavern",
+					"description": "The Tavern increases the morale of the garrison.",
+					"cost":
+					{
+						"wood": 5,
+						"gold": 500
+					}
+				},
+				"fort":
+				{
+					"name": "Fort",
+					"description": "The Fort provides your town with walls.",
+					"cost":
+					{
+						"wood": 10,
+						"ore": 10,
+						"gold": 5000
+					}
+				},
+				"citadel":
+				{
+					"name": "Citadel",
+					"description": "The Citadel not only increases basic creature growth by 50%, but also strengthens the town's defenses.",
+					"cost":
+					{
+						"ore": 5,
+						"gold": 2500
+					}
+				},
+				"castle":
+				{
+					"name": "Castle",
+					"description": "The Castle provides 2 additional arrow towers to strengthen the town's defense and also doubles basic creature growth.",
+					"cost":
+					{
+						"gold": 5000,
+						"wood": 10,
+						"ore": 10
+					}
+				},
+				"villageHall":
+				{
+					"name": "Village Hall",
+					"description": "The Village Hall allows you to purchase town buildings and provides you with 500 gold per day."
+				},
+				"townHall":
+				{
+					"name": "Town Hall",
+					"description": "The Town Hall allows you to purchase town buildings and provides you with 1000 gold per day.",
+					"cost":
+					{
+						"gold": 2500
+					}
+				},
+				"cityHall":
+				{
+					"name": "City Hall",
+					"description": "The City Hall allows you to purchase town buildings and provides you with 2000 gold per day.",
+					"cost":
+					{
+						"gold": 5000
+					},
+					"requires": [ "allOf", ["mageGuild1"], ["marketplace"], ["blacksmith"] ]
+				},
+				"capitol":
+				{
+					"name": "Capitol",
+					"description": "The Capitol provides you with 4000 gold per day.",
+					"cost":
+					{
+						"gold": 10000
+					}
+				},
+				"marketplace":
+				{
+					"name": "Marketplace",
+					"description": "The Marketplace allows you to trade resources (the more markets you have, the cheaper the rates).",
+					"cost":
+					{
+						"wood": 5,
+						"gold": 500
+					}
+				},
+				"resourceSilo":
+				{
+					"name": "Resource Silo",
+					"description": "The Resource Silo provides you with 1 additional Sulfur per day.",
+					"cost":
+					{
+						"ore": 5,
+						"gold": 5000
+					},
+					"produce": { "wood": 0, "ore": 0, "mercury": 0, "sulfur": 1, "crystal": 0, "gems": 0 }
+				},
+				"blacksmith":
+				{
+					"description": "The Blacksmith provides a Ballista to your army.",
+					"name": "Blacksmith",
+					"cost":
+					{
+						"wood": 5,
+						"gold": 1000
+					},
+					"warMachine": "ballista"
+				},
+				"special1":
+				{
+					"description": "The Demon Locking Tower prevents enemies from fleeing, reduces their speed by 2 points, and spreads a radius 10 Dark Shroud.",
+					"name": "Demon Locking Tower",
+					"cost":
+					{
+						"wood": 20,
+						"gold": 2000
+					},
+					"bonuses":
+					[
+						{
+							"type": "BATTLE_NO_FLEEING",
+							"propagator": "BATTLE_WIDE"
+						},
+						{
+							"type": "STACKS_SPEED",
+							"val": 2,
+							"propagator": "BATTLE_WIDE"
+						},
+						{
+							"type": "DARKNESS",
+							"val": 10
+						}
+					],
+					"requires": ["mageGuild1"]
+				},
+				"horde1":
+				{
+					"description": "The Sky Pivot Pavilion increases the weekly production of White Fox Scholars by 12.",
+					"name": "Sky Pivot Pavilion",
+					"cost":
+					{
+						"gold": 1000
+					}
+				},
+				"horde1Upgr":
+				{
+					"description": "The Sky Pivot Pavilion increases the weekly production of Red Fox Guards by 12.",
+					"name": "Sky Pivot Pavilion",
+					"cost":
+					{
+						"gold": 1000
+					},
+					"requires": ["horde1"]
+				},
+				"horde1Upgr2":
+				{
+					"description": "The Sky Pivot Pavilion increases the weekly production of Golden Fox Powerhouses by 12.",
+					"name": "Sky Pivot Pavilion",
+					"cost":
+					{
+						"gold": 1000
+					},
+					"requires": ["horde1Upgr"]
+				},
+				"special2":
+				{
+					"description": "The Seven Treasures Glazed Lamp increases the Spell Power of each visiting hero by +2, and increases the mana percentage per point of Knowledge by 40% for a week.",
+					"name": "Seven Treasures Glazed Lamp",
+					"cost":
+					{
+						"wood": 20,
+						"gold": 2000
+					},
+					"configuration": {
+						"visitMode": "hero",
+						"rewards": [
+							{
+								"message": "@core.genrltxt.582",
+								"primary": { "spellpower": 2 }
+							}
+						]
+					},
+					"bonuses":
+					[
+						{
+							"type": "MANA_PER_KNOWLEDGE_PERCENTAGE",
+							"val": 40,
+							"duration": "ONE_WEEK",
+							"propagator": "TOWN_AND_VISITOR"
+						}
+					],
+					"requires": ["special1"]
+				},
+				"special3":
+				{
+					"description": "The Coiling Dragon Pillar allows you to spend gold to learn four practical skills and provides +5 mana regeneration per day for visiting heroes.",
+					"name": "Coiling Dragon Pillar",
+					"cost":
+					{
+						"wood": 10,
+						"gold": 2000
+					},
+					"marketModes": ["resource-skill"],
+					"marketOffer": ["fireMagic", "offence", "wisdom", "resistance"],
+					"configuration": {
+						"visitMode": "hero",
+						"rewards": [
+							{ "bonuses": [ { "duration": "ONE_WEEK", "type": "MANA_REGENERATION", "val": 5 } ] }
+						]
+					},
+					"requires": ["dwellingLvl4"]
+				},
+				"special4":
+				{
+					"description": "The Fairy Spirit Crystal grants each visiting hero the ability to fly until the end of the week.",
+					"name": "Fairy Spirit Crystal",
+					"cost":
+					{
+						"wood": 10,
+						"gold": 2000
+					},
+					"configuration": {
+						"visitMode": "hero",
+						"rewards": [
+							{ "bonuses": [ {
+								"duration": "ONE_WEEK",
+								"type": "FLYING_MOVEMENT"
+							} ] }
+						]
+					},
+					"requires": ["dwellingLvl4"]
+				},
+				"special5":
+				{
+					"description": "The Mystic Heaven Flame increases fire spell damage by 10% per hero level, grants +2 attack to the hero's army, and reduces spell mana cost by 1.",
+					"name": "Mystic Heaven Flame",
+					"cost":
+					{
+						"wood": 10,
+						"gold": 2000
+					},
+					"bonuses":
+					[
+						{
+							"type": "SPELL_DAMAGE",
+							"subtype": "spellSchool.fire",
+							"val": 10,
+							"valueType": "BASE_NUMBER",
+							"updater": "TIMES_HERO_LEVEL",
+							"propagator": "TOWN_AND_VISITOR"
+						},
+						{
+							"type": "PRIMARY_SKILL",
+							"subtype": "primarySkill.attack",
+							"val": 2,
+							"propagator": "TOWN_AND_VISITOR"
+						},
+						{
+							"type": "CHANGES_SPELL_COST_FOR_ALLY",
+							"val": 1,
+							"propagator": "TOWN_AND_VISITOR"
+						}
+					],
+					"requires": ["dwellingLvl4"],
+					"id": 24
+				},
+				"special6":
+				{
+					"description": "The Treasure Pavilion allows purchasing various artifacts.",
+					"name": "Treasure Pavilion",
+					"cost":
+					{
+						"wood": 10,
+						"gold": 2000
+					},
+					"marketModes": ["resource-artifact", "artifact-resource"],
+					"requires": ["dwellingLvl4"],
+					"id": 25
+				},
+				"special7":
+				{
+					"description": "The Xuanyuan Gate provides an additional 1 ore and 500 gold per day for the kingdom.",
+					"name": "Xuanyuan Gate",
+					"cost":
+					{
+						"wood": 20,
+						"gold": 2000
+					},
+					"produce": { "gold": 500, "gems": 1, "crystal": 1, "sulfur": 1, "mercury": 1, "wood": 1, "ore": 1 },
+					"requires": ["special9"],
+					"id": 101
+				},
+				"special8":
+				{
+					"description": "The Yandi Gate increases the weekly creature production of this town by 100%.",
+					"name": "Yandi Gate",
+					"cost":
+					{
+						"wood": 20,
+						"gold": 2000
+					},
+					"bonuses":
+					[
+						{
+							"type": "CREATURE_GROWTH_PERCENT",
+							"val": 100
+						}
+					],
+					"requires": ["special7"],
+					"id": 102
+				},
+				"special9":
+				{
+					"description": "The Medicine King Pavilion provides health regeneration (7 x level) for each visiting hero's army until the end of the week.",
+					"name": "Medicine King Pavilion",
+					"cost":
+					{
+						"wood": 20,
+						"gold": 2000
+					},
+					"configuration": {
+						"visitMode": "hero",
+						"rewards": [
+							{ "bonuses": [ {
+								"duration": "ONE_WEEK",
+								"type": "HP_REGENERATION",
+								"val": 7,
+								"updater": "TIMES_STACK_LEVEL"
+							} ] }
+						]
+					},
+					"requires": ["blacksmith"],
+					"id": 103
+				},
+				"special10":
+				{
+					"description": "The Spirit Gathering Tower increases hero morale and luck by 2 points.",
+					"name": "Spirit Gathering Tower",
+					"cost":
+					{
+						"wood": 20,
+						"gold": 2000
+					},
+					"bonuses":
+					[
+						{
+							"type": "MORALE",
+							"val": 2
+						},
+						{
+							"type": "LUCK",
+							"val": 2
+						}
+					],
+					"requires": ["special2"],
+					"id": 104
+				},
+				"special11":
+				{
+					"description": "The Flame Chi Stone Carving provides an additional 1 ore and 500 gold per day for the kingdom and enables special upgrades.",
+					"name": "Flame Chi Stone Carving",
+					"cost":
+					{
+						"wood": 20,
+						"gold": 2000
+					},
+					"bonuses":
+					[
+						{ "type": "SPECIAL_UPGRADE", "subtype": "yandilv1", "addInfo": "yandilv7s1", "propagator": "TOWN_AND_VISITOR" },
+						{ "type": "SPECIAL_UPGRADE", "subtype": "yandilv1up", "addInfo": "yandilv7s1", "propagator": "TOWN_AND_VISITOR" },
+						{ "type": "SPECIAL_UPGRADE", "subtype": "yandilv1up2", "addInfo": "yandilv7s1", "propagator": "TOWN_AND_VISITOR" },
+						{ "type": "SPECIAL_UPGRADE", "subtype": "yandilv2", "addInfo": "yandilv7s1", "propagator": "TOWN_AND_VISITOR" },
+						{ "type": "SPECIAL_UPGRADE", "subtype": "yandilv2up", "addInfo": "yandilv7s1", "propagator": "TOWN_AND_VISITOR" },
+						{ "type": "SPECIAL_UPGRADE", "subtype": "yandilv2up2", "addInfo": "yandilv7s1", "propagator": "TOWN_AND_VISITOR" },
+						{ "type": "SPECIAL_UPGRADE", "subtype": "yandilv3", "addInfo": "yandilv7s1", "propagator": "TOWN_AND_VISITOR" },
+						{ "type": "SPECIAL_UPGRADE", "subtype": "yandilv3up", "addInfo": "yandilv7s1", "propagator": "TOWN_AND_VISITOR" },
+						{ "type": "SPECIAL_UPGRADE", "subtype": "yandilv3up2", "addInfo": "yandilv7s1", "propagator": "TOWN_AND_VISITOR" },
+						{ "type": "SPECIAL_UPGRADE", "subtype": "yandilv4", "addInfo": "yandilv7s1", "propagator": "TOWN_AND_VISITOR" },
+						{ "type": "SPECIAL_UPGRADE", "subtype": "yandilv4up", "addInfo": "yandilv7s1", "propagator": "TOWN_AND_VISITOR" },
+						{ "type": "SPECIAL_UPGRADE", "subtype": "yandilv4up2", "addInfo": "yandilv7s1", "propagator": "TOWN_AND_VISITOR" },
+						{ "type": "SPECIAL_UPGRADE", "subtype": "yandilv5", "addInfo": "yandilv7s1", "propagator": "TOWN_AND_VISITOR" },
+						{ "type": "SPECIAL_UPGRADE", "subtype": "yandilv5up", "addInfo": "yandilv7s1", "propagator": "TOWN_AND_VISITOR" },
+						{ "type": "SPECIAL_UPGRADE", "subtype": "yandilv5up2", "addInfo": "yandilv7s1", "propagator": "TOWN_AND_VISITOR" },
+						{ "type": "SPECIAL_UPGRADE", "subtype": "yandilv6", "addInfo": "yandilv7s1", "propagator": "TOWN_AND_VISITOR" },
+						{ "type": "SPECIAL_UPGRADE", "subtype": "yandilv6up", "addInfo": "yandilv7s1", "propagator": "TOWN_AND_VISITOR" },
+						{ "type": "SPECIAL_UPGRADE", "subtype": "yandilv6up2", "addInfo": "yandilv7s1", "propagator": "TOWN_AND_VISITOR" },
+						{ "type": "SPECIAL_UPGRADE", "subtype": "yandilv7", "addInfo": "yandilv7s1", "propagator": "TOWN_AND_VISITOR" },
+						{ "type": "SPECIAL_UPGRADE", "subtype": "yandilv7up", "addInfo": "yandilv7s1", "propagator": "TOWN_AND_VISITOR" },
+						{ "type": "SPECIAL_UPGRADE", "subtype": "yandilv7up2", "addInfo": "yandilv7s1", "propagator": "TOWN_AND_VISITOR" },
+						{ "type": "SPECIAL_UPGRADE", "subtype": "yandilv1", "addInfo": "yandilv7s2", "propagator": "TOWN_AND_VISITOR" },
+						{ "type": "SPECIAL_UPGRADE", "subtype": "yandilv1up", "addInfo": "yandilv7s2", "propagator": "TOWN_AND_VISITOR" },
+						{ "type": "SPECIAL_UPGRADE", "subtype": "yandilv1up2", "addInfo": "yandilv7s2", "propagator": "TOWN_AND_VISITOR" },
+						{ "type": "SPECIAL_UPGRADE", "subtype": "yandilv2", "addInfo": "yandilv7s2", "propagator": "TOWN_AND_VISITOR" },
+						{ "type": "SPECIAL_UPGRADE", "subtype": "yandilv2up", "addInfo": "yandilv7s2", "propagator": "TOWN_AND_VISITOR" },
+						{ "type": "SPECIAL_UPGRADE", "subtype": "yandilv2up2", "addInfo": "yandilv7s2", "propagator": "TOWN_AND_VISITOR" },
+						{ "type": "SPECIAL_UPGRADE", "subtype": "yandilv3", "addInfo": "yandilv7s2", "propagator": "TOWN_AND_VISITOR" },
+						{ "type": "SPECIAL_UPGRADE", "subtype": "yandilv3up", "addInfo": "yandilv7s2", "propagator": "TOWN_AND_VISITOR" },
+						{ "type": "SPECIAL_UPGRADE", "subtype": "yandilv3up2", "addInfo": "yandilv7s2", "propagator": "TOWN_AND_VISITOR" },
+						{ "type": "SPECIAL_UPGRADE", "subtype": "yandilv4", "addInfo": "yandilv7s2", "propagator": "TOWN_AND_VISITOR" },
+						{ "type": "SPECIAL_UPGRADE", "subtype": "yandilv4up", "addInfo": "yandilv7s2", "propagator": "TOWN_AND_VISITOR" },
+						{ "type": "SPECIAL_UPGRADE", "subtype": "yandilv4up2", "addInfo": "yandilv7s2", "propagator": "TOWN_AND_VISITOR" },
+						{ "type": "SPECIAL_UPGRADE", "subtype": "yandilv5", "addInfo": "yandilv7s2", "propagator": "TOWN_AND_VISITOR" },
+						{ "type": "SPECIAL_UPGRADE", "subtype": "yandilv5up", "addInfo": "yandilv7s2", "propagator": "TOWN_AND_VISITOR" },
+						{ "type": "SPECIAL_UPGRADE", "subtype": "yandilv5up2", "addInfo": "yandilv7s2", "propagator": "TOWN_AND_VISITOR" },
+						{ "type": "SPECIAL_UPGRADE", "subtype": "yandilv6", "addInfo": "yandilv7s2", "propagator": "TOWN_AND_VISITOR" },
+						{ "type": "SPECIAL_UPGRADE", "subtype": "yandilv6up", "addInfo": "yandilv7s2", "propagator": "TOWN_AND_VISITOR" },
+						{ "type": "SPECIAL_UPGRADE", "subtype": "yandilv6up2", "addInfo": "yandilv7s2", "propagator": "TOWN_AND_VISITOR" },
+						{ "type": "SPECIAL_UPGRADE", "subtype": "yandilv7", "addInfo": "yandilv7s2", "propagator": "TOWN_AND_VISITOR" },
+						{ "type": "SPECIAL_UPGRADE", "subtype": "yandilv7up", "addInfo": "yandilv7s2", "propagator": "TOWN_AND_VISITOR" },
+						{ "type": "SPECIAL_UPGRADE", "subtype": "yandilv7up2", "addInfo": "yandilv7s2", "propagator": "TOWN_AND_VISITOR" },
+						{ "type": "SPECIAL_UPGRADE", "subtype": "yandilv1", "addInfo": "yandilv7s3", "propagator": "TOWN_AND_VISITOR" },
+						{ "type": "SPECIAL_UPGRADE", "subtype": "yandilv1up", "addInfo": "yandilv7s3", "propagator": "TOWN_AND_VISITOR" },
+						{ "type": "SPECIAL_UPGRADE", "subtype": "yandilv1up2", "addInfo": "yandilv7s3", "propagator": "TOWN_AND_VISITOR" },
+						{ "type": "SPECIAL_UPGRADE", "subtype": "yandilv2", "addInfo": "yandilv7s3", "propagator": "TOWN_AND_VISITOR" },
+						{ "type": "SPECIAL_UPGRADE", "subtype": "yandilv2up", "addInfo": "yandilv7s3", "propagator": "TOWN_AND_VISITOR" },
+						{ "type": "SPECIAL_UPGRADE", "subtype": "yandilv2up2", "addInfo": "yandilv7s3", "propagator": "TOWN_AND_VISITOR" },
+						{ "type": "SPECIAL_UPGRADE", "subtype": "yandilv3", "addInfo": "yandilv7s3", "propagator": "TOWN_AND_VISITOR" },
+						{ "type": "SPECIAL_UPGRADE", "subtype": "yandilv3up", "addInfo": "yandilv7s3", "propagator": "TOWN_AND_VISITOR" },
+						{ "type": "SPECIAL_UPGRADE", "subtype": "yandilv3up2", "addInfo": "yandilv7s3", "propagator": "TOWN_AND_VISITOR" },
+						{ "type": "SPECIAL_UPGRADE", "subtype": "yandilv4", "addInfo": "yandilv7s3", "propagator": "TOWN_AND_VISITOR" },
+						{ "type": "SPECIAL_UPGRADE", "subtype": "yandilv4up", "addInfo": "yandilv7s3", "propagator": "TOWN_AND_VISITOR" },
+						{ "type": "SPECIAL_UPGRADE", "subtype": "yandilv4up2", "addInfo": "yandilv7s3", "propagator": "TOWN_AND_VISITOR" },
+						{ "type": "SPECIAL_UPGRADE", "subtype": "yandilv5", "addInfo": "yandilv7s3", "propagator": "TOWN_AND_VISITOR" },
+						{ "type": "SPECIAL_UPGRADE", "subtype": "yandilv5up", "addInfo": "yandilv7s3", "propagator": "TOWN_AND_VISITOR" },
+						{ "type": "SPECIAL_UPGRADE", "subtype": "yandilv5up2", "addInfo": "yandilv7s3", "propagator": "TOWN_AND_VISITOR" },
+						{ "type": "SPECIAL_UPGRADE", "subtype": "yandilv6", "addInfo": "yandilv7s3", "propagator": "TOWN_AND_VISITOR" },
+						{ "type": "SPECIAL_UPGRADE", "subtype": "yandilv6up", "addInfo": "yandilv7s3", "propagator": "TOWN_AND_VISITOR" },
+						{ "type": "SPECIAL_UPGRADE", "subtype": "yandilv6up2", "addInfo": "yandilv7s3", "propagator": "TOWN_AND_VISITOR" },
+						{ "type": "SPECIAL_UPGRADE", "subtype": "yandilv7", "addInfo": "yandilv7s3", "propagator": "TOWN_AND_VISITOR" },
+						{ "type": "SPECIAL_UPGRADE", "subtype": "yandilv7up", "addInfo": "yandilv7s3", "propagator": "TOWN_AND_VISITOR" },
+						{ "type": "SPECIAL_UPGRADE", "subtype": "yandilv7up2", "addInfo": "yandilv7s3", "propagator": "TOWN_AND_VISITOR" },
+						{ "type": "SPECIAL_UPGRADE", "subtype": "yandilv7s1", "addInfo": "yandilv7s4", "propagator": "TOWN_AND_VISITOR" }
+					],
+					"requires": ["special3"],
+					"id": 105
+				},
+				"special12":
+				{
+					"description": "The Yinglong Stone Carving provides an additional 1000 gold per day for the kingdom and increases the land movement of visiting heroes.",
+					"name": "Yinglong Stone Carving",
+					"cost":
+					{
+						"wood": 20,
+						"gold": 2000
+					},
+					"configuration": {
+						"visitMode": "bonus",
+						"rewards": [
+							{
+								"message": "@core.genrltxt.580",
+								"movePoints": 1000,
+								"bonuses": [ { "type": "MOVEMENT", "subtype": "heroMovementLand", "val": 1000, "valueType": "ADDITIVE_VALUE", "duration": "ONE_WEEK" } ]
+							}
+						]
+					},
+					"produce": { "gold": 500, "gems": 0, "crystal": 0, "sulfur": 0, "mercury": 0, "wood": 0, "ore": 0 },
+					"requires": ["special11"],
+					"id": 106
+				},
+				"special13":
+				{
+					"description": "The Seven Treasures Tree provides 5000 experience to the visiting hero and increases the chance that wandering monsters encountered will join the hero's army.",
+					"name": "Seven Treasures Tree",
+					"cost":
+					{
+						"wood": 20,
+						"gold": 2000
+					},
+					"configuration": {
+						"visitMode": "hero",
+						"rewards": [
+							{
+								"message": "@core.genrltxt.583",
+								"heroExperience": 5000
+							}
+						]
+					},
+					"bonuses":
+					[
+						{
+							"type": "WANDERING_CREATURES_JOIN_BONUS",
+							"val": 4,
+							"duration": "ONE_WEEK",
+							"propagator": "TOWN_AND_VISITOR"
+						}
+					],
+					"requires": ["dwellingUp2Lvl7"],
+					"id": 107
+				},
+				"grail":
+				{
+					"description": "The Flame God Pillar increases weekly creature production by 50%, provides an additional 5000 gold per day for your kingdom, allows all heroes to use the highest level of fire magic, and grants all Yandi town creatures immunity to fire and a 30% health bonus.",
+					"name": "Flame God Pillar",
+					"produce": { "gold": 5000 },
+					"bonuses": [
+						{ "type": "STACK_HEALTH", "val": 200, "propagator": "GLOBAL_EFFECT", "limiters": [ { "type": "CREATURE_FACTION_LIMITER", "faction": "yandi" } ] },
+						{ "type": "MAGIC_SCHOOL_SKILL", "subtype": "fire", "val": 3, "propagator": "PLAYER" },
+						{ "type": "SPELL_DAMAGE_REDUCTION", "subtype": "spellSchool.fire", "val": 100, "propagator": "GLOBAL_EFFECT", "limiters": [ { "type": "CREATURE_FACTION_LIMITER", "faction": "yandi" } ] }
+					]
+				},
+				"dwellingLvl1":
+				{
+					"description": "The Sky Fox Pavilion allows you to recruit White Fox Scholars.",
+					"name": "Sky Fox Pavilion",
+					"cost":
+					{
+						"gold": 500,
+						"wood": 5,
+						"ore": 5
+					},
+					"requires": [ "fort" ]
+				},
+				"dwellingLvl2":
+				{
+					"description": "The Barbarian Frog Palace allows you to recruit Barbarian Frogs.",
+					"name": "Barbarian Frog Palace",
+					"cost":
+					{
+						"gold": 1000,
+						"wood": 5,
+						"ore": 5
+					},
+					"requires": [ "dwellingLvl1" ]
+				},
+				"dwellingLvl3":
+				{
+					"description": "The Imperial Immortal Palace allows you to recruit Feather Folk.",
+					"name": "Imperial Immortal Palace",
+					"cost":
+					{
+						"gold": 1000,
+						"ore": 5
+					},
+					"requires": ["allOf", ["blacksmith"], ["fort"] ]
+				},
+				"dwellingLvl4":
+				{
+					"description": "The Asura Field allows you to recruit Bull-headed Demons.",
+					"name": "Asura Field",
+					"cost":
+					{
+						"gold": 2000,
+						"ore": 5
+					},
+					"requires": [ "allOf", [ "dwellingLvl3" ], [ "dwellingLvl1" ] ]
+				},
+				"dwellingLvl5":
+				{
+					"description": "The Flame Demon Hall allows you to recruit Qiongqi Bears.",
+					"name": "Flame Demon Hall",
+					"cost":
+					{
+						"gold": 3000,
+						"wood": 5,
+						"ore": 2,
+						"gems": 2,
+						"sulfur": 5,
+						"mercury": 2,
+						"crystal": 2
+					},
+					"requires": [ "allOf", [ "mageGuild1" ], [ "dwellingLvl4" ] ]
+				},
+				"dwellingLvl6":
+				{
+					"description": "The Mystic Heaven Pavilion allows you to recruit Chaos Boars.",
+					"name": "Mystic Heaven Pavilion",
+					"cost":
+					{
+						"gold": 5000,
+						"wood": 20
+					},
+					"requires": [ "special2" ]
+				},
+				"dwellingLvl7":
+				{
+					"description": "The Yandi Palace allows you to recruit Ember Earth Demons.",
+					"name": "Yandi Palace",
+					"cost":
+					{
+						"wood": 5,
+						"crystal": 5,
+						"ore": 5,
+						"gold": 5000
+					},
+					"requires": [ "allOf", [ "dwellingLvl5" ], [ "dwellingLvl6"], ["mageGuild2"] ]
+				},
+				"dwellingUpLvl1":
+				{
+					"description": "The Advanced Sky Fox Pavilion allows you to recruit Red Fox Guards.",
+					"name": "Advanced Sky Fox Pavilion",
+					"cost":
+					{
+						"gold": 1000,
+						"ore": 5
+					},
+					"requires": ["fort"],
+					"upgrades": "dwellingLvl1"
+				},
+				"dwellingUpLvl2":
+				{
+					"description": "The Advanced Barbarian Frog Palace allows you to recruit Fire Frogs.",
+					"name": "Advanced Barbarian Frog Palace",
+					"cost":
+					{
+						"gold": 1000,
+						"wood": 5,
+						"ore": 5
+					},
+					"upgrades": "dwellingLvl2"
+				},
+				"dwellingUpLvl3":
+				{
+					"description": "The Advanced Imperial Immortal Palace allows you to recruit Feather Folk Fighters.",
+					"name": "Advanced Imperial Immortal Palace",
+					"cost":
+					{
+						"gold": 1000,
+						"ore": 5
+					},
+					"upgrades": "dwellingLvl3"
+				},
+				"dwellingUpLvl4":
+				{
+					"description": "The Advanced Asura Field allows you to recruit Winged Bull-headed Demons.",
+					"name": "Advanced Asura Field",
+					"cost":
+					{
+						"gold": 2000,
+						"ore": 5,
+						"crystal": 5
+					},
+					"upgrades": "dwellingLvl4"
+				},
+				"dwellingUpLvl5":
+				{
+					"description": "The Advanced Flame Demon Hall allows you to recruit Qiongqi Giant Bears.",
+					"name": "Advanced Flame Demon Hall",
+					"cost":
+					{
+						"wood": 2,
+						"gold": 1000,
+						"ore": 2,
+						"gems": 2,
+						"sulfur": 2,
+						"mercury": 2,
+						"crystal": 2
+					},
+					"upgrades": "dwellingLvl5"
+				},
+				"dwellingUpLvl6":
+				{
+					"description": "The Advanced Mystic Heaven Pavilion allows you to recruit Heaven-breaking Boars.",
+					"name": "Advanced Mystic Heaven Pavilion",
+					"cost":
+					{
+						"gold": 3000,
+						"wood": 10
+					},
+					"upgrades": "dwellingLvl6"
+				},
+				"dwellingUpLvl7":
+				{
+					"description": "The Advanced Yandi Palace allows you to recruit Flame-burning Demons.",
+					"name": "Advanced Yandi Palace",
+					"cost":
+					{
+						"wood": 5,
+						"sulfur": 5,
+						"ore": 5,
+						"gold": 5000
+					},
+					"requires": ["mageGuild3"],
+					"upgrades": "dwellingLvl7"
+				},
+				"dwellingUp2Lvl1":
+				{
+					"description": "The Superior Sky Fox Pavilion allows you to recruit Golden Fox Powerhouses.",
+					"name": "Superior Sky Fox Pavilion",
+					"cost":
+					{
+						"gold": 1000,
+						"ore": 5
+					},
+					"requires": ["dwellingUpLvl4"],
+					"upgrades": "dwellingUpLvl1"
+				},
+				"dwellingUp2Lvl2":
+				{
+					"description": "The Superior Barbarian Frog Palace allows you to recruit Thorn Barbarian Frogs.",
+					"name": "Superior Barbarian Frog Palace",
+					"cost":
+					{
+						"gold": 1000,
+						"wood": 5,
+						"ore": 5
+					},
+					"upgrades": "dwellingUpLvl2"
+				},
+				"dwellingUp2Lvl3":
+				{
+					"description": "The Superior Imperial Immortal Palace allows you to recruit Feather Folk Guardians.",
+					"name": "Superior Imperial Immortal Palace",
+					"cost":
+					{
+						"gold": 1000,
+						"ore": 5
+					},
+					"upgrades": "dwellingUpLvl3"
+				},
+				"dwellingUp2Lvl4":
+				{
+					"description": "The Superior Asura Field allows you to recruit Winged Bull-headed Demon Chiefs.",
+					"name": "Superior Asura Field",
+					"cost":
+					{
+						"gold": 2000,
+						"ore": 5,
+						"crystal": 5
+					},
+					"upgrades": "dwellingUpLvl4"
+				},
+				"dwellingUp2Lvl5":
+				{
+					"description": "The Superior Flame Demon Hall allows you to recruit Qiongqi Leopards.",
+					"name": "Superior Flame Demon Hall",
+					"cost":
+					{
+						"wood": 2,
+						"gold": 1000,
+						"ore": 2,
+						"gems": 2,
+						"sulfur": 2,
+						"mercury": 2,
+						"crystal": 2
+					},
+					"upgrades": "dwellingUpLvl5"
+				},
+				"dwellingUp2Lvl6":
+				{
+					"description": "The Superior Mystic Heaven Pavilion allows you to recruit Dark Flame Heaven-destroying Boars.",
+					"name": "Superior Mystic Heaven Pavilion",
+					"cost":
+					{
+						"gold": 3000,
+						"wood": 10
+					},
+					"upgrades": "dwellingUpLvl6"
+				},
+				"dwellingUp2Lvl7":
+				{
+					"description": "The Superior Yandi Palace allows you to recruit Yandi Demons.",
+					"name": "Superior Yandi Palace",
+					"cost":
+					{
+						"wood": 5,
+						"sulfur": 5,
+						"ore": 5,
+						"gold": 5000
+					},
+					"upgrades": "dwellingUpLvl7"
+				}
+			}
+		}
+	}
+}

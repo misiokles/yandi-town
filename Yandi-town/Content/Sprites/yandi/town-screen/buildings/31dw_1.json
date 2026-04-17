@@ -1,0 +1,7 @@
+{
+    "basepath" : "yandi/town-screen/buildings/frames/",
+	"images" :
+	[
+		{ "frame" : 0, "file" : "31dw_1"}
+	]
+}

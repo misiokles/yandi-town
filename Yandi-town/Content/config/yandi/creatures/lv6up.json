@@ -1,0 +1,141 @@
+{
+	"yandilv6up":
+	{
+		"name" :
+		{
+			"plural" : "Potian Tuan",
+			"singular" : "Potian Tuan"
+		},
+		"advMapAmount" :
+		{
+			 "max" : 10,
+			 "min" : 5
+		},
+		"faction" : "yandi",
+		"upgrades": ["yandilv6up2"],
+		"aiValue" : 2261,
+		"attack" : 16,
+		"doubleWide" : true,
+                "cost" :
+		{
+			"gold" : 1200
+		},
+		"damage" :
+		{
+			 "max" : 25,
+			 "min" : 20
+		},
+		"defense" : 16,
+		"shots" : 24,
+		"fightValue" : 2133,
+		"graphics" :
+		{
+			
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
+			"animation" : "yandi/creatures/battle/lv6up.json",
+			"map" : "yandi/creatures/map/lv6up.json",
+			"iconSmall" : "yandi/creatures/iconsSmall/lv6ups.bmp",
+			"iconLarge" : "yandi/creatures/iconsBig/lv6upb.bmp",			
+			"timeBetweenFidgets" : 1,
+			"missile" :
+			{
+				"projectile": "yandi/creatures/projectile/CPRZEAX.def",
+				"attackClimaxFrame" : 7,
+				"offset" :
+				{
+					"upperX" : 38,
+					"upperY" : -65,
+					"middleX" : 36,
+					"middleY" : -59,
+					"lowerX" : 21,
+					"lowerY" : -50
+				},
+				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+			}
+               },
+		"growth" : 2,
+		"hitPoints" : 150,
+		"level" : 6,
+		
+		"sound" :
+		{
+			"attack" : "UXatack.wav",
+			"defend" : "UXdefend.wav",
+			"killed" : "UXkill.wav",
+			"move"   : "UXmove.wav",
+			"wince"  : "UXwince.wav"
+		},
+		"speed" :13,
+		"abilities":
+		{
+			"canFly" : 
+			{	
+			    "type" : "FLYING"	
+			},
+			"doubleAttack" : 
+			{
+				"type" : "FEROCITY",
+				"val" : 1
+			},
+			"regeneration" : 
+			{ 
+			   "type" : "HP_REGENERATION", 
+			   "val" : 30 
+			},
+            "summonGuardians" :
+			{
+				"type" : "SUMMON_GUARDIANS",
+				"subtype" : "creature.yandilv2",
+				"val" : 50
+			},
+			"deathStare" : 
+			{
+				"type" : "DEATH_STARE",
+				"subtype" : "deathStareGorgon",
+				"val" : 10
+			}
+		},
+		"stackExperience" :
+		[
+			{
+				"bonus" :
+				{
+					"subtype" : "primarySkill.attack",
+					"type" : "PRIMARY_SKILL"
+				},
+				"values" : [ 1, 2, 3, 4, 4, 5, 6, 7, 8, 9 ]
+			},	
+			{
+				"bonus" :
+				{
+					"subtype" : "primarySkill.defence",
+					"type" : "PRIMARY_SKILL"
+				},
+				"values" : [ 1, 2, 2, 3, 4, 5, 6, 7, 8, 9 ]
+			},
+			{
+				"bonus" :
+				{
+					"subtype" : "creatureDamageBoth",
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 8, 9 ]
+			},
+			{
+				"bonus" :
+				{
+					"subtype" : "creatureDamageBoth",
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [ 0, 1, 2, 3, 4, 5, 5, 6, 7, 8 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "LEVEL_SPELL_IMMUNITY"				
+				},
+				"values" : [ 0, 0, 0, 0, 0, 1, 1, 1, 1, 1 ]
+			}
+		]	
+	}
+}

@@ -1,0 +1,23 @@
+{
+	"crossbow":
+        {
+	    "type" : ["HERO"],
+	    "warMachine":"felCrossbow",
+        "class": "SPECIAL",
+        "value": 3500,
+        "slot":"MACH1",
+        "text":
+		{
+			"name": "弩炮",
+			"description": "{弩炮}\r\n\r\n军械科学家的最新发明，用于摧毁敌人部队的利器。",
+			"event": "通用战争机器莫蒂拉可让你攻击敌方的城墙。"
+		},
+		"graphics":
+		{
+			"image":   "fen/creatures/iconsSmall/artifacts/cross.bmp",
+			"map"  :   "fen/creatures/map/artifacts/blank.def"
+		}
+	}
+}
+
+

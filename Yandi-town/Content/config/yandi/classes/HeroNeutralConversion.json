@@ -1,0 +1,182 @@
+{
+"agreilla" :{
+	"specialty" :{	"bonuses" :{
+			"conversionPikeman":{			"type" :"SPECIAL_UPGRADE",	"subtype":	"creature.pikeman",			"addInfo":	"creature.felv1"},
+			"conversionHalberdier":{			"type" :"SPECIAL_UPGRADE",	"subtype":	"creature.halberdier",			"addInfo":	"creature.felv1up"},
+			"conversionArcher":{	"type" :"SPECIAL_UPGRADE",	"subtype":	"creature.archer",	"addInfo":	"creature.felv2"},
+			"conversionMarksman":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"creature.marksman",		"addInfo":	"creature.felv2up"},
+			"conversionSwordsman":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"creature.swordsman",		"addInfo":	"creature.felv4"},
+			"conversionCrusader":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"creature.crusader",		"addInfo":	"creature.felv4up"},
+			"conversionMonk":{	"type" :"SPECIAL_UPGRADE",	"subtype":	"creature.monk",	"addInfo":	"creature.felv5"},
+			"conversionZealot":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"creature.zealot",		"addInfo":	"creature.felv5up"}}}},
+"aludia" :{
+	"specialty" :{	"bonuses" :{
+			"conversionPikeman":{			"type" :"SPECIAL_UPGRADE",	"subtype":	"creature.pikeman",			"addInfo":	"creature.felv1"},
+			"conversionHalberdier":{			"type" :"SPECIAL_UPGRADE",	"subtype":	"creature.halberdier",			"addInfo":	"creature.felv1up"},
+			"conversionArcher":{	"type" :"SPECIAL_UPGRADE",	"subtype":	"creature.archer",	"addInfo":	"creature.felv2"},
+			"conversionMarksman":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"creature.marksman",		"addInfo":	"creature.felv2up"},
+			"conversionSwordsman":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"creature.swordsman",		"addInfo":	"creature.felv4"},
+			"conversionCrusader":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"creature.crusader",		"addInfo":	"creature.felv4up"},
+			"conversionMonk":{	"type" :"SPECIAL_UPGRADE",	"subtype":	"creature.monk",	"addInfo":	"creature.felv5"},
+			"conversionZealot":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"creature.zealot",		"addInfo":	"creature.felv5up"}}}},
+"aoebwy" :{
+	"specialty" :{	"bonuses" :{
+			"conversionPikeman":{			"type" :"SPECIAL_UPGRADE",	"subtype":	"creature.pikeman",			"addInfo":	"creature.felv1"},
+			"conversionHalberdier":{			"type" :"SPECIAL_UPGRADE",	"subtype":	"creature.halberdier",			"addInfo":	"creature.felv1up"},
+			"conversionArcher":{	"type" :"SPECIAL_UPGRADE",	"subtype":	"creature.archer",	"addInfo":	"creature.felv2"},
+			"conversionMarksman":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"creature.marksman",		"addInfo":	"creature.felv2up"},
+			"conversionSwordsman":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"creature.swordsman",		"addInfo":	"creature.felv4"},
+			"conversionCrusader":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"creature.crusader",		"addInfo":	"creature.felv4up"},
+			"conversionMonk":{	"type" :"SPECIAL_UPGRADE",	"subtype":	"creature.monk",	"addInfo":	"creature.felv5"},
+			"conversionZealot":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"creature.zealot",		"addInfo":	"creature.felv5up"}}}},
+"chiatrem" :{
+	"specialty" :{	"bonuses" :{
+			"conversionPikeman":{			"type" :"SPECIAL_UPGRADE",	"subtype":	"creature.pikeman",			"addInfo":	"creature.felv1"},
+			"conversionHalberdier":{			"type" :"SPECIAL_UPGRADE",	"subtype":	"creature.halberdier",			"addInfo":	"creature.felv1up"},
+			"conversionArcher":{	"type" :"SPECIAL_UPGRADE",	"subtype":	"creature.archer",	"addInfo":	"creature.felv2"},
+			"conversionMarksman":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"creature.marksman",		"addInfo":	"creature.felv2up"},
+			"conversionSwordsman":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"creature.swordsman",		"addInfo":	"creature.felv4"},
+			"conversionCrusader":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"creature.crusader",		"addInfo":	"creature.felv4up"},
+			"conversionMonk":{	"type" :"SPECIAL_UPGRADE",	"subtype":	"creature.monk",	"addInfo":	"creature.felv5"},
+			"conversionZealot":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"creature.zealot",		"addInfo":	"creature.felv5up"}}}},
+"fabrok" :{
+	"specialty" :{	"bonuses" :{
+			"conversionPikeman":{			"type" :"SPECIAL_UPGRADE",	"subtype":	"creature.pikeman",			"addInfo":	"creature.felv1"},
+			"conversionHalberdier":{			"type" :"SPECIAL_UPGRADE",	"subtype":	"creature.halberdier",			"addInfo":	"creature.felv1up"},
+			"conversionArcher":{	"type" :"SPECIAL_UPGRADE",	"subtype":	"creature.archer",	"addInfo":	"creature.felv2"},
+			"conversionMarksman":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"creature.marksman",		"addInfo":	"creature.felv2up"},
+			"conversionSwordsman":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"creature.swordsman",		"addInfo":	"creature.felv4"},
+			"conversionCrusader":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"creature.crusader",		"addInfo":	"creature.felv4up"},
+			"conversionMonk":{	"type" :"SPECIAL_UPGRADE",	"subtype":	"creature.monk",	"addInfo":	"creature.felv5"},
+			"conversionZealot":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"creature.zealot",		"addInfo":	"creature.felv5up"}}}},
+"galiema" :{
+	"specialty" :{	"bonuses" :{
+			"conversionPikeman":{			"type" :"SPECIAL_UPGRADE",	"subtype":	"creature.pikeman",			"addInfo":	"creature.felv1"},
+			"conversionHalberdier":{			"type" :"SPECIAL_UPGRADE",	"subtype":	"creature.halberdier",			"addInfo":	"creature.felv1up"},
+			"conversionArcher":{	"type" :"SPECIAL_UPGRADE",	"subtype":	"creature.archer",	"addInfo":	"creature.felv2"},
+			"conversionMarksman":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"creature.marksman",		"addInfo":	"creature.felv2up"},
+			"conversionSwordsman":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"creature.swordsman",		"addInfo":	"creature.felv4"},
+			"conversionCrusader":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"creature.crusader",		"addInfo":	"creature.felv4up"},
+			"conversionMonk":{	"type" :"SPECIAL_UPGRADE",	"subtype":	"creature.monk",	"addInfo":	"creature.felv5"},
+			"conversionZealot":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"creature.zealot",		"addInfo":	"creature.felv5up"}}}},
+"glirari" :{
+	"specialty" :{	"bonuses" :{
+			"conversionPikeman":{			"type" :"SPECIAL_UPGRADE",	"subtype":	"creature.pikeman",			"addInfo":	"creature.felv1"},
+			"conversionHalberdier":{			"type" :"SPECIAL_UPGRADE",	"subtype":	"creature.halberdier",			"addInfo":	"creature.felv1up"},
+			"conversionArcher":{	"type" :"SPECIAL_UPGRADE",	"subtype":	"creature.archer",	"addInfo":	"creature.felv2"},
+			"conversionMarksman":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"creature.marksman",		"addInfo":	"creature.felv2up"},
+			"conversionSwordsman":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"creature.swordsman",		"addInfo":	"creature.felv4"},
+			"conversionCrusader":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"creature.crusader",		"addInfo":	"creature.felv4up"},
+			"conversionMonk":{	"type" :"SPECIAL_UPGRADE",	"subtype":	"creature.monk",	"addInfo":	"creature.felv5"},
+			"conversionZealot":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"creature.zealot",		"addInfo":	"creature.felv5up"}}}},
+"haauldan" :{
+	"specialty" :{	"bonuses" :{
+			"conversionPikeman":{			"type" :"SPECIAL_UPGRADE",	"subtype":	"creature.pikeman",			"addInfo":	"creature.felv1"},
+			"conversionHalberdier":{			"type" :"SPECIAL_UPGRADE",	"subtype":	"creature.halberdier",			"addInfo":	"creature.felv1up"},
+			"conversionArcher":{	"type" :"SPECIAL_UPGRADE",	"subtype":	"creature.archer",	"addInfo":	"creature.felv2"},
+			"conversionMarksman":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"creature.marksman",		"addInfo":	"creature.felv2up"},
+			"conversionSwordsman":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"creature.swordsman",		"addInfo":	"creature.felv4"},
+			"conversionCrusader":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"creature.crusader",		"addInfo":	"creature.felv4up"},
+			"conversionMonk":{	"type" :"SPECIAL_UPGRADE",	"subtype":	"creature.monk",	"addInfo":	"creature.felv5"},
+			"conversionZealot":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"creature.zealot",		"addInfo":	"creature.felv5up"}}}},
+"ibelasien" :{
+	"specialty" :{	"bonuses" :{
+			"conversionPikeman":{			"type" :"SPECIAL_UPGRADE",	"subtype":	"creature.pikeman",			"addInfo":	"creature.felv1"},
+			"conversionHalberdier":{			"type" :"SPECIAL_UPGRADE",	"subtype":	"creature.halberdier",			"addInfo":	"creature.felv1up"},
+			"conversionArcher":{	"type" :"SPECIAL_UPGRADE",	"subtype":	"creature.archer",	"addInfo":	"creature.felv2"},
+			"conversionMarksman":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"creature.marksman",		"addInfo":	"creature.felv2up"},
+			"conversionSwordsman":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"creature.swordsman",		"addInfo":	"creature.felv4"},
+			"conversionCrusader":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"creature.crusader",		"addInfo":	"creature.felv4up"},
+			"conversionMonk":{	"type" :"SPECIAL_UPGRADE",	"subtype":	"creature.monk",	"addInfo":	"creature.felv5"},
+			"conversionZealot":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"creature.zealot",		"addInfo":	"creature.felv5up"}}}},
+"kairia" :{
+	"specialty" :{	"bonuses" :{
+			"conversionPikeman":{			"type" :"SPECIAL_UPGRADE",	"subtype":	"creature.pikeman",			"addInfo":	"creature.felv1"},
+			"conversionHalberdier":{			"type" :"SPECIAL_UPGRADE",	"subtype":	"creature.halberdier",			"addInfo":	"creature.felv1up"},
+			"conversionArcher":{	"type" :"SPECIAL_UPGRADE",	"subtype":	"creature.archer",	"addInfo":	"creature.felv2"},
+			"conversionMarksman":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"creature.marksman",		"addInfo":	"creature.felv2up"},
+			"conversionSwordsman":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"creature.swordsman",		"addInfo":	"creature.felv4"},
+			"conversionCrusader":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"creature.crusader",		"addInfo":	"creature.felv4up"},
+			"conversionMonk":{	"type" :"SPECIAL_UPGRADE",	"subtype":	"creature.monk",	"addInfo":	"creature.felv5"},
+			"conversionZealot":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"creature.zealot",		"addInfo":	"creature.felv5up"}}}},
+"niv" :{
+	"specialty" :{	"bonuses" :{
+			"conversionPikeman":{			"type" :"SPECIAL_UPGRADE",	"subtype":	"creature.pikeman",			"addInfo":	"creature.felv1"},
+			"conversionHalberdier":{			"type" :"SPECIAL_UPGRADE",	"subtype":	"creature.halberdier",			"addInfo":	"creature.felv1up"},
+			"conversionArcher":{	"type" :"SPECIAL_UPGRADE",	"subtype":	"creature.archer",	"addInfo":	"creature.felv2"},
+			"conversionMarksman":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"creature.marksman",		"addInfo":	"creature.felv2up"},
+			"conversionSwordsman":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"creature.swordsman",		"addInfo":	"creature.felv4"},
+			"conversionCrusader":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"creature.crusader",		"addInfo":	"creature.felv4up"},
+			"conversionMonk":{	"type" :"SPECIAL_UPGRADE",	"subtype":	"creature.monk",	"addInfo":	"creature.felv5"},
+			"conversionZealot":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"creature.zealot",		"addInfo":	"creature.felv5up"}}}},
+"ocerien" :{
+	"specialty" :{	"bonuses" :{
+			"conversionPikeman":{			"type" :"SPECIAL_UPGRADE",	"subtype":	"creature.pikeman",			"addInfo":	"creature.felv1"},
+			"conversionHalberdier":{			"type" :"SPECIAL_UPGRADE",	"subtype":	"creature.halberdier",			"addInfo":	"creature.felv1up"},
+			"conversionArcher":{	"type" :"SPECIAL_UPGRADE",	"subtype":	"creature.archer",	"addInfo":	"creature.felv2"},
+			"conversionMarksman":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"creature.marksman",		"addInfo":	"creature.felv2up"},
+			"conversionSwordsman":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"creature.swordsman",		"addInfo":	"creature.felv4"},
+			"conversionCrusader":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"creature.crusader",		"addInfo":	"creature.felv4up"},
+			"conversionMonk":{	"type" :"SPECIAL_UPGRADE",	"subtype":	"creature.monk",	"addInfo":	"creature.felv5"},
+			"conversionZealot":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"creature.zealot",		"addInfo":	"creature.felv5up"}}}},
+"orisk" :{
+	"specialty" :{	"bonuses" :{
+			"conversionPikeman":{			"type" :"SPECIAL_UPGRADE",	"subtype":	"creature.pikeman",			"addInfo":	"creature.felv1"},
+			"conversionHalberdier":{			"type" :"SPECIAL_UPGRADE",	"subtype":	"creature.halberdier",			"addInfo":	"creature.felv1up"},
+			"conversionArcher":{	"type" :"SPECIAL_UPGRADE",	"subtype":	"creature.archer",	"addInfo":	"creature.felv2"},
+			"conversionMarksman":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"creature.marksman",		"addInfo":	"creature.felv2up"},
+			"conversionSwordsman":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"creature.swordsman",		"addInfo":	"creature.felv4"},
+			"conversionCrusader":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"creature.crusader",		"addInfo":	"creature.felv4up"},
+			"conversionMonk":{	"type" :"SPECIAL_UPGRADE",	"subtype":	"creature.monk",	"addInfo":	"creature.felv5"},
+			"conversionZealot":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"creature.zealot",		"addInfo":	"creature.felv5up"}}}},
+"skyla" :{
+	"specialty" :{	"bonuses" :{
+			"conversionPikeman":{			"type" :"SPECIAL_UPGRADE",	"subtype":	"creature.pikeman",			"addInfo":	"creature.felv1"},
+			"conversionHalberdier":{			"type" :"SPECIAL_UPGRADE",	"subtype":	"creature.halberdier",			"addInfo":	"creature.felv1up"},
+			"conversionArcher":{	"type" :"SPECIAL_UPGRADE",	"subtype":	"creature.archer",	"addInfo":	"creature.felv2"},
+			"conversionMarksman":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"creature.marksman",		"addInfo":	"creature.felv2up"},
+			"conversionSwordsman":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"creature.swordsman",		"addInfo":	"creature.felv4"},
+			"conversionCrusader":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"creature.crusader",		"addInfo":	"creature.felv4up"},
+			"conversionMonk":{	"type" :"SPECIAL_UPGRADE",	"subtype":	"creature.monk",	"addInfo":	"creature.felv5"},
+			"conversionZealot":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"creature.zealot",		"addInfo":	"creature.felv5up"}}}},
+"treassa" :{
+	"specialty" :{	"bonuses" :{
+			"conversionPikeman":{			"type" :"SPECIAL_UPGRADE",	"subtype":	"creature.pikeman",			"addInfo":	"creature.felv1"},
+			"conversionHalberdier":{			"type" :"SPECIAL_UPGRADE",	"subtype":	"creature.halberdier",			"addInfo":	"creature.felv1up"},
+			"conversionArcher":{	"type" :"SPECIAL_UPGRADE",	"subtype":	"creature.archer",	"addInfo":	"creature.felv2"},
+			"conversionMarksman":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"creature.marksman",		"addInfo":	"creature.felv2up"},
+			"conversionSwordsman":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"creature.swordsman",		"addInfo":	"creature.felv4"},
+			"conversionCrusader":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"creature.crusader",		"addInfo":	"creature.felv4up"},
+			"conversionMonk":{	"type" :"SPECIAL_UPGRADE",	"subtype":	"creature.monk",	"addInfo":	"creature.felv5"},
+			"conversionZealot":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"creature.zealot",		"addInfo":	"creature.felv5up"}}}},
+"triam" :{
+	"specialty" :{	"bonuses" :{
+			"conversionPikeman":{			"type" :"SPECIAL_UPGRADE",	"subtype":	"creature.pikeman",			"addInfo":	"creature.felv1"},
+			"conversionHalberdier":{			"type" :"SPECIAL_UPGRADE",	"subtype":	"creature.halberdier",			"addInfo":	"creature.felv1up"},
+			"conversionArcher":{	"type" :"SPECIAL_UPGRADE",	"subtype":	"creature.archer",	"addInfo":	"creature.felv2"},
+			"conversionMarksman":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"creature.marksman",		"addInfo":	"creature.felv2up"},
+			"conversionSwordsman":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"creature.swordsman",		"addInfo":	"creature.felv4"},
+			"conversionCrusader":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"creature.crusader",		"addInfo":	"creature.felv4up"},
+			"conversionMonk":{	"type" :"SPECIAL_UPGRADE",	"subtype":	"creature.monk",	"addInfo":	"creature.felv5"},
+			"conversionZealot":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"creature.zealot",		"addInfo":	"creature.felv5up"}}}},
+"umira" :{
+	"specialty" :{	"bonuses" :{
+			"conversionPikeman":{			"type" :"SPECIAL_UPGRADE",	"subtype":	"creature.pikeman",			"addInfo":	"creature.felv1"},
+			"conversionHalberdier":{			"type" :"SPECIAL_UPGRADE",	"subtype":	"creature.halberdier",			"addInfo":	"creature.felv1up"},
+			"conversionArcher":{	"type" :"SPECIAL_UPGRADE",	"subtype":	"creature.archer",	"addInfo":	"creature.felv2"},
+			"conversionMarksman":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"creature.marksman",		"addInfo":	"creature.felv2up"},
+			"conversionSwordsman":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"creature.swordsman",		"addInfo":	"creature.felv4"},
+			"conversionCrusader":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"creature.crusader",		"addInfo":	"creature.felv4up"},
+			"conversionMonk":{	"type" :"SPECIAL_UPGRADE",	"subtype":	"creature.monk",	"addInfo":	"creature.felv5"},
+			"conversionZealot":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"creature.zealot",		"addInfo":	"creature.felv5up"}}}},
+"yoidith" :{
+	"specialty" :{	"bonuses" :{
+			"conversionPikeman":{			"type" :"SPECIAL_UPGRADE",	"subtype":	"creature.pikeman",			"addInfo":	"creature.felv1"},
+			"conversionHalberdier":{			"type" :"SPECIAL_UPGRADE",	"subtype":	"creature.halberdier",			"addInfo":	"creature.felv1up"},
+			"conversionArcher":{	"type" :"SPECIAL_UPGRADE",	"subtype":	"creature.archer",	"addInfo":	"creature.felv2"},
+			"conversionMarksman":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"creature.marksman",		"addInfo":	"creature.felv2up"},
+			"conversionSwordsman":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"creature.swordsman",		"addInfo":	"creature.felv4"},
+			"conversionCrusader":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"creature.crusader",		"addInfo":	"creature.felv4up"},
+			"conversionMonk":{	"type" :"SPECIAL_UPGRADE",	"subtype":	"creature.monk",	"addInfo":	"creature.felv5"},
+			"conversionZealot":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"creature.zealot",		"addInfo":	"creature.felv5up"}}}}
+}

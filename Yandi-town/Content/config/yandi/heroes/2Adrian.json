@@ -1,0 +1,67 @@
+{
+	"yandieadrian":
+	{
+		"class": "yandiMight",
+		"female": false,
+		"images":
+		{
+			"specialtySmall": "yandi/heroes/2Adrian/s-spec130.bmp",
+			"specialtyLarge": "yandi/heroes/2Adrian/spec130.bmp",
+			"large": "yandi/heroes/2Adrian/HPL006KN.bmp",
+			"small": "yandi/heroes/2Adrian/HPS006KN.bmp"
+		},
+		"army":
+		[
+			{ "creature": "yandilv1", "min": 9, "max": 15 },
+			{ "creature": "yandilv2", "min": 6, "max": 9 },
+			{ "creature": "yandilv3", "min": 3, "max": 6 }
+		],
+		"skills":
+		[
+			{ "skill": "armorer", "level": "basic" },
+			{ "skill": "leadership", "level": "basic" }
+		],
+		"texts":
+		{
+			"name": "Yan Zhuo",
+			"biography": "A direct descendant of Yandi Shennong, and the tribal leader who succeeded after the Battle of Zhuolu. When the dimensional portal went awry, he was leading the tribe to rest during their migration. In the critical moment, he used his spiritual power to protect the core altar, allowing the tribe to fully cross the spatial-temporal rift. Upon arriving at the Jadam volcanic plain, he overcame opposition to accept the indigenous tribes, using the benevolent way of his ancestors 'tasting herbs and teaching farming' to unite the people, and presided over the construction of Yandi City. He is proficient in ancient fire witchcraft and farming rituals, able to communicate with the fire energy of the Jadam continent through the flame altar, both to enhance the combat power of his people and to promote crop growth. In the decisive battle against the Chiyou remnant and dark mages, he used the altar as the core to set up a flame barrier, resisting the erosion of dark curses. He is the undeniable spiritual pillar of Yandi City.",
+			"specialty":
+			{
+				"description": "Increases fire magic power by +15%, reduces fire magic cost by 3 points. The troops under his command gain +5 attack, have fire magic immunity, and grant adjacent allies a 'Fire Shield'. Summons Yandi soldiers to fight during battle.",
+				"tooltip": "Flame Altar Spirit Command",
+				"name": "Flame Altar Spirit Command"
+			}
+		},
+		"spellbook":
+		[
+			"haste"
+		],
+		"specialty": {
+			"bonuses": {
+				"armorer": {
+					"type": "GENERAL_DAMAGE_REDUCTION",
+					"subtype": "damageTypeAll",
+					"targetSourceType": "SECONDARY_SKILL",
+					"updater": "TIMES_HERO_LEVEL",
+					"val": 5,
+					"valueType": "PERCENT_TO_TARGET_TYPE"
+				},
+				"health1": {
+					"type": "STACK_HEALTH",
+					"val": 1,
+					"valueType": "BASE_NUMBER"
+				},
+				"health2": {
+					"type": "STACK_HEALTH",
+					"val": 4,
+					"valueType": "PERCENT_TO_BASE"
+				},
+				"defence": {
+					"type": "PRIMARY_SKILL",
+					"subtype": "primarySkill.defence",
+					"val": 2
+				}
+			}
+		}
+	}
+}

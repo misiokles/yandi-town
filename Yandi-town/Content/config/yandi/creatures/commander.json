@@ -1,0 +1,119 @@
+{
+	"yandicommander":
+	{
+		"name" :
+		{
+			"plural" : "Cangwu Monster",
+			"singular" : "Cangwu Monster"
+		},
+		"advMapAmount" :
+		{
+			"max" : 25,
+			"min" : 16
+		},
+		"faction" : "yandi",
+                "level" : 0,
+		"special" : true,
+		"attack" : 8,
+		"defense" : 5,
+		"damage" :
+		{
+			 "min" : 10,
+			 "max" : 10
+		},
+		"growth" : 9,
+		"doubleWide" : false,
+		"hitPoints" : 50,
+		"speed" : 5,
+		"shots" : 24,
+		"fightValue" : 1000,
+		"aiValue" : 1000,
+		"cost" :
+		{
+			"gold" : 140
+		},
+		"graphics" :
+		{
+			"animation" : "yandi/creatures/battle/commander.json",
+			"map" : "yandi/creatures/map/com.json",
+			"iconSmall" : "yandi/creatures/iconsSmall/coms.bmp",
+			"iconLarge" : "yandi/creatures/iconsBig/comb.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1,
+				"attack" : 1,
+				"idle" : 10
+			},
+			"missile" :
+			{
+				"projectile" : "CPRZEAX.DEF",
+				"attackClimaxFrame" : 7,
+				"offset" :
+				{
+					"upperX" : 38,
+					"upperY" : -65,
+					"middleX" : 36,
+					"middleY" : -59,
+					"lowerX" : 21,
+					"lowerY" : -50
+				},
+				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+			}
+		},	
+		"hasDoubleWeek": false,
+		"sound" :
+		{
+			"attack": "AMAGATTK.wav",
+			"defend": "AMAGDFND.wav",
+			"killed": "AMAGKILL.wav",
+			"move": "AMAGMOVE.wav",
+			"shoot": "AMAGSHOT.wav",
+			"wince": "AMAGWNCE.wav"
+                },
+		"abilities" :
+		{
+			
+		   "canShoot" :
+			{
+				"type" : "SHOOTER"
+			},
+			"magicResistance" :
+			{
+				"type" : "MAGIC_RESISTANCE",
+				"val" : 5
+			},
+			"castsAmount" :
+			{
+				"type" : "CASTS",
+				"val" : 1
+			},
+			"enchant" :
+			{
+				"type" : "CREATURE_ENCHANT_POWER",
+				"val" : 1
+			},
+			"spellpower" :
+			{
+				"type" : "CREATURE_SPELL_POWER",
+				"val" : 100
+			},
+			"transmutation" :
+			{
+				"type" : "TRANSMUTATION",
+				"subtype" : "transmutationPerHealth",
+				"val" : 3
+			},
+			"castSpeed" :
+			{
+				"type" : "SPELLCASTER",
+				"subtype" : "spell.destroyUndead",
+				"val" : 3
+			},
+			"noMeleePenalty" :
+			{
+				"type" : "NO_MELEE_PENALTY"
+			}
+		}	
+	}
+}

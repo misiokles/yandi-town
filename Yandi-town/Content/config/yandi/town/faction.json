@@ -1,0 +1,192 @@
+{
+	"yandi":
+	{
+		"name": "Yandi City",
+		"description": "{Yandi City}\nFaction Alignment: Good, Order\nNative Terrain: Grass\nLocation: Jadam Continent - Volcanic Zone\nAfter the 1170-year silence following the restoration war on the Enroth continent, various powers reshuffled, and Jadam, as one of the three major continents of the planet Enroth (Colony Star), was being infiltrated by undead forces. The local mage clans, seeking to strengthen their combat power against the increasingly rampant undead legions near the Shadow Spiral Mountains, attempted to summon the legendary fire power from the elemental plane through a portal. Although the mages of Jadam were skilled in spatial magic at the time, they still had flaws in controlling the stability of the dimensional passage. During a high-level ritual that gathered the power of the entire clan, the magical array's energy suddenly went out of control, and the coordinates of the dimensional portal severely shifted. Instead of connecting to the elemental plane, it tore open a spatial-temporal rift to the ancient Chinese mythological plane. At that time, shortly after the Battle of Zhuolu, the Yandi tribe, having just endured a brutal battle with the Chiyou tribe and facing difficulties during their migration, had their settlement spatially overlap with this rift. The entire resting Yandi tribe, along with their altars and farming facilities, were drawn into the rift and eventually fell into the volcanic plain of southern Jadam. Upon first arriving in Jadam, the Yandi people fell into brief chaos. The unfamiliar climate, strange magical beasts, and energy-disturbed land made it difficult for them, accustomed to the Central Plains farming environment, to advance. However, the Yandi tribe inherited the resilience and wisdom of Shennong. Their leader (a descendant of Yandi who inherited the title and legacy of Yandi) quickly stabilized the tribe. They discovered that although the environment of this volcanic plain was harsh, the soil was exceptionally fertile due to volcanic ash, and the underground contained abundant fire energy, which perfectly matched the tribe's traditional skills of flame farming and herbal cultivation. Meanwhile, the local indigenous tribes, plagued by both undead and magical beasts, saw that the Yandi people could use fire magic to improve the land, grow high-yield grains, and heal diseases with herbs, and so they actively sought an alliance. The Yandi tribe accepted the indigenous tribes with benevolence, teaching them farming techniques and medical knowledge while integrating indigenous magical beast taming skills, gradually establishing themselves on this land. Using their ancient altar as the core, they built a city combining Chinese architectural style with Jadam's regional characteristics. Because the tribe always remembered Yandi's protection, they named it Yandi City. The city's buildings are mainly made of fire-resistant stone, with walls carved with Yandi mythological totems such as farming and tasting herbs. The flame altar in the core area serves to maintain the connection between the tribe and the fire energy of this continent. The rise of Yandi City quickly attracted the attention of surrounding powers. The dark mages and remaining undead forces of Jadam, fearing the undead-suppressing effect of their fire power, began plotting attacks in secret. More unexpectedly, the dimensional portal's instability not only brought the Yandi tribe but also a small remnant of Chiyou's tribe through the spatial-temporal fragments. This remnant settled in the dark canyons of Jadam, absorbed the local dark energy, and became increasingly fierce. Their leader always harbored an obsession with the Yandi tribe, determined to complete the ancient unfinished conquest. When the dark mages and the Chiyou remnant formed an alliance, a conflict mirroring the ancient Battle of Zhuolu erupted. The Chiyou remnant launched fierce attacks using weapons and witchcraft infused with dark energy, while the dark mages used curse magic to weaken Yandi City's defenses. At this critical moment, the leader of Yandi City, following the example of their ancestors' strategy of allying with allies, contacted the indigenous tribes they had helped and also reached out to the Jadam mage clan who had caused the dimensional rift. The mages, wanting to make amends, sent elites to help reinforce the city's magical defenses and taught the Yandi people how to enhance their fire magic using Jadam's energy system. In the end, with the help of the allied forces, the Yandi tribe fought a decisive battle against the Chiyou remnant and dark mages on the volcanic plain. On the battlefield, the warriors of Yandi City wielded fire magic, recreating the scene of breaking enemies with flames from ancient wars while incorporating Jadam's magical techniques to form a unique offensive and defensive system. The priests on the altar treated the wounded with a combination of herbs and magic, continuing Shennong's healing heritage. The battle ended with the defeat of the Chiyou remnant and the expulsion of the dark mages. After the battle, Yandi City became an important power in southern Jadam. It was no longer an isolated tribal fortress but a hub blending Chinese farming civilization with Jadam's magical civilization. The Yandi people hybridized plants from the Colony Star with native crops, cultivating new species adaptable to multiple environments. Their fire magic was also adopted by Jadam mages to improve the stability technology of dimensional passages. The legend of Yandi City gradually spread across Jadam Continent, becoming a timeless story in Colonial history: an ancient tribe from another dimension used benevolence and wisdom to overcome crises, turning a foreign land into their home, adding a magnificent chapter to the continent's civilization. Later, when Escaton attempted to destroy the planet in 1172 S.D., Yandi City's fire power assisted the heroes of Jadam in freeing the elemental lords and preventing the world's destruction.",
+		"nativeTerrain": "grass",
+		"boat": "boatCastle",
+		"alignment": "good",
+		"creatureBackground":
+		{
+			"120px": "yandi/creature-bg-120px.bmp",
+			"130px": "yandi/creature-bg-130px.bmp"
+		},
+		"town":
+		{
+			"mapObject":
+			{
+				"filters": {
+					"castle": [ "allOf", [ "castle" ], [ "noneOf", [ "capitol" ] ] ],
+					"citadel": [ "allOf", [ "citadel" ], [ "noneOf", [ "castle" ] ] ],
+					"fort": [ "allOf", [ "fort" ], [ "noneOf", [ "citadel" ] ] ]
+				},
+				"templates": {
+					"castle": { "animation": "yandi/adventure-map/town/town-castle.json" },
+					"citadel": { "animation": "yandi/adventure-map/town/town-citadel.json" },
+					"fort": { "animation": "yandi/adventure-map/town/town-fort.json" },
+					"village": { "animation": "yandi/adventure-map/town/town-village.json" },
+					"capitol": { "animation": "yandi/adventure-map/town/town-capitol.json" }
+				}
+			},
+			"musicTheme": [ "music/factions/CampainMusic16" ],
+			"defaultTavern": 5,
+			"tavern":
+			{
+				"knight": 4,
+				"cleric": 4,
+				"ranger": 2,
+				"druid": 2,
+				"alchemist": 5,
+				"wizard": 5,
+				"demoniac": 5,
+				"heretic": 5,
+				"deathknight": 5,
+				"necromancer": 5,
+				"warlock": 5,
+				"overlord": 5,
+				"barbarian": 5,
+				"battlemage": 5,
+				"beastmaster": 5,
+				"witch": 5,
+				"planeswalker": 5,
+				"elementalist": 5,
+				"yandiMight": 5,
+				"yandiMagic": 5
+			},
+			"tavernVideo": "TAVERN.BIK",
+			"guildBackground": "TPMAGE.bmp",
+			"guildSpells": {
+				"bless": 10,
+				"bloodlust": 0,
+				"cure": 10,
+				"curse": 0,
+				"dispel": 10,
+				"haste": 5,
+				"magicArrow": 30,
+				"protectFire": 3,
+				"protectWater": 3,
+				"shield": 10,
+				"slow": 5,
+				"stoneSkin": 5,
+				"summonBoat": 3,
+				"viewAir": 3,
+				"viewEarth": 3,
+				"blind": 4,
+				"deathRipple": 0,
+				"disguise": 2,
+				"disruptingRay": 6,
+				"fireWall": 4,
+				"fortune": 4,
+				"iceBolt": 50,
+				"lightningBolt": 4,
+				"precision": 6,
+				"quicksand": 4,
+				"removeObstacle": 4,
+				"scuttleBoat": 6,
+				"visions": 2,
+				"weakness": 2,
+				"airShield": 4,
+				"animateDead": 0,
+				"antiMagic": 12,
+				"destroyUndead": 12,
+				"earthquake": 4,
+				"fireball": 8,
+				"forceField": 4,
+				"forgetfulness": 8,
+				"frostRing": 16,
+				"hypnotize": 4,
+				"landMine": 8,
+				"mirth": 4,
+				"misfortune": 4,
+				"protectAir": 2,
+				"protectEarth": 4,
+				"teleport": 8,
+				"armageddon": 0,
+				"berserk": 5,
+				"chainLightning": 10,
+				"clone": 5,
+				"counterstrike": 5,
+				"fireShield": 5,
+				"frenzy": 5,
+				"inferno": 5,
+				"meteorShower": 10,
+				"prayer": 10,
+				"resurrection": 10,
+				"slayer": 5,
+				"sorrow": 5,
+				"townPortal": 10,
+				"waterWalk": 10,
+				"airElemental": 4,
+				"dimensionDoor": 4,
+				"earthElemental": 5,
+				"fireElemental": 5,
+				"fly": 5,
+				"implosion": 4,
+				"magicMirror": 6,
+				"sacrifice": 0,
+				"waterElemental": 5
+			},
+			"townBackground": "yandi/town-screen/background.bmp",
+			"guildWindow": "yandi/town-screen/mage-guild.bmp",
+			"buildingsIcons": "yandi/town-hall.json",
+			"hallBackground": "yandi/town-screen/TPTHBKFG12.png",
+			"primaryResource": "crystal",
+			"hallSlots":
+			[
+				[ [ "villageHall", "townHall", "cityHall", "capitol" ], [ "fort", "citadel", "castle" ], [ "tavern" ], [ "blacksmith", "special9" ] ],
+				[ [ "marketplace", "resourceSilo" ], [ "mageGuild1", "mageGuild2", "mageGuild3", "mageGuild4", "mageGuild5" ], [ "special7", "special8" ], [ "special1", "special2", "special10" ] ],
+				[ [ "special3", "special11", "special12" ], [ "special4", "special9" ], [ "special5", "special6" ], [ "horde1", "horde1Upgr", "horde1Upgr2" ] ],
+				[ [ "dwellingLvl1", "dwellingUpLvl1", "dwellingUp2Lvl1" ], [ "dwellingLvl2", "dwellingUpLvl2", "dwellingUp2Lvl2" ], [ "dwellingLvl3", "dwellingUpLvl3", "dwellingUp2Lvl3" ], [ "dwellingLvl4", "dwellingUpLvl4", "dwellingUp2Lvl4" ] ],
+				[ [ "dwellingLvl5", "dwellingUpLvl5", "dwellingUp2Lvl5" ], [ "dwellingLvl6", "dwellingUpLvl6", "dwellingUp2Lvl6" ], [ "dwellingLvl7", "dwellingUpLvl7", "dwellingUp2Lvl7" ] ]
+			],
+			"creatures":
+			[
+				["yandilv1", "yandilv1up", "yandilv1up2"],
+				["yandilv2", "yandilv2up", "yandilv2up2"],
+				["yandilv3", "yandilv3up", "yandilv3up2"],
+				["yandilv4", "yandilv4up", "yandilv4up2"],
+				["yandilv5", "yandilv5up", "yandilv5up2"],
+				["yandilv6", "yandilv6up", "yandilv6up2"],
+				["yandilv7", "yandilv7up", "yandilv7up2"]
+			],
+			"horde": [ 0, 2 ],
+			"icons": {
+				"fort": {
+					"built": {
+						"large": "yandi/icons/fort-builded-big.bmp",
+						"small": "yandi/icons/fort-builded-small.bmp"
+					},
+					"normal": { "large": "yandi/icons/fort-big.bmp", "small": "yandi/icons/fort-small.bmp" }
+				},
+				"village": {
+					"built": {
+						"large": "yandi/icons/hall-builded-big.bmp",
+						"small": "yandi/icons/hall-builded-small.bmp"
+					},
+					"normal": { "large": "yandi/icons/hall-big.bmp", "small": "yandi/icons/hall-small.bmp" }
+				}
+			},
+			"mageGuild": 5,
+			"moatAbility": "castleMoat",
+			"names": [
+				"Sangsoubar",
+				"Magical Sand City",
+				"Dragaton",
+				"Avigni",
+				"Pongsat",
+				"Antioch",
+				"Melemeck",
+				"Mamardin",
+				"Guardian Gate",
+				"Firewind City",
+				"Oasis City",
+				"Ventu",
+				"Luming",
+				"Mirage City",
+				"Aurora City",
+				"Baisengji",
+				"Alamut"
+			]
+		}
+	}
+}

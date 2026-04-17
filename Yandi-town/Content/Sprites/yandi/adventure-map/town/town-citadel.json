@@ -1,0 +1,10 @@
+{
+    "images": [
+        {
+            "group": 0,
+            "frame": 0,
+            "file": "01.png"
+        }
+    ],
+    "basepath": "yandi/adventure-map/town/citadel/"
+}

@@ -1,0 +1,65 @@
+{
+	"yandiedalia":
+	{
+		"class": "yandiMagic",
+		"female": true,
+		"images":
+		{
+			"specialtySmall": "yandi/heroes/13Dalia/s-spec141.bmp",
+			"specialtyLarge": "yandi/heroes/13Dalia/spec141.bmp",
+			"large": "yandi/heroes/13Dalia/HPL011CL.bmp",
+			"small": "yandi/heroes/13Dalia/HPS011CL.bmp"
+		},
+		"army":
+		[
+			{ "creature": "ballista", "max": 1, "min": 1 },
+			{ "creature": "yandilv1", "min": 10, "max": 15 },
+			{ "creature": "yandilv2", "min": 3, "max": 6 }
+		],
+		"skills":
+		[
+			{ "skill": "resistance", "level": "basic" },
+			{ "skill": "sorcery", "level": "basic" }
+		],
+		"texts":
+		{
+			"name": "Qi An",
+			"biography": "Born from the Xuan Stone People tribe of the ancient Chinese 'Remnant Range of Buzhou Mountain'. Grateful that the Yandi ancestors used spiritual herbs to cure a plague in the stone people tribe, they followed the Yandi tribe for generations, becoming the tribe's most reliable 'mobile fortress'. His body is forged from thousand-year Xuan Iron Bedrock, possessing immense strength, invulnerability to weapons, and the ability to manipulate stone energy to construct defensive barriers. When crossing through time and space, he used his massive body to protect the tribe's core food supplies and craftsman tools, withstanding the impact of the temporal currents — even when his bedrock body was cracked, he did not move an inch. Upon arriving in Jadam, he took on the responsibility of building Yandi City's defensive fortifications: quarrying volcanic fire-resistant stones, reinforcing city walls, and laying stone traps. The north gate, where he stood guard for years, became known as the 'Bedrock Barrier', and the enemy's multiple probing attacks were easily repelled by him. He is skilled in using stone energy, able to grant his 'Xuan Iron Stone Skin' trait to his soldiers, making the Rock Shield Legion an 'impregnable fortress'. In the decisive battle, he personally guarded the north gate, activating the city wall's stone barrier with the 'Bedrock Prison Suppression Art', withstanding multiple waves of attacks from the Chiyou remnant. Even when surrounded by several dark magical beasts, he did not retreat a single step. The troops under his command never broke even when surrounded, becoming the backbone of the allied forces' defense.",
+			"specialty":
+			{
+				"description": "Reduces earth magic cost by 3 points and increases power by 30%. 'Stone Skin' can cover 3 adjacent allies and grants +2 defense. 'Earthquake' does not damage allied buildings or troops. 'Quicksand Trap' has a 20% chance to trap enemy units for 1 turn. Can transform into 'Stone Form' (+3 defense, +20% health, lasts 2 turns).",
+				"tooltip": "Thick Earth World-Bearing Art",
+				"name": "Thick Earth World-Bearing Art"
+			}
+		},
+		"spellbook":
+		[
+			"lightningBolt"
+		],
+		"specialty": {
+			"bonuses": {
+				"magicVulnerability": {
+					"type": "NEGATE_ALL_NATURAL_IMMUNITIES",
+					"subtype": "immunityBattleWide",
+					"val": 0,
+					"valueType": "BASE_NUMBER",
+					"propagator": "BATTLE_WIDE"
+				},
+				"magicVulnerability2": {
+					"type": "NEGATE_ALL_NATURAL_IMMUNITIES",
+					"subtype": "immunityEnemyHero",
+					"val": 0,
+					"valueType": "BASE_NUMBER",
+					"propagator": "BATTLE_WIDE"
+				},
+				"resistance": {
+					"type": "MAGIC_RESISTANCE",
+					"targetSourceType": "SECONDARY_SKILL",
+					"updater": "TIMES_HERO_LEVEL",
+					"val": 10,
+					"valueType": "PERCENT_TO_TARGET_TYPE"
+				}
+			}
+		}
+	}
+}

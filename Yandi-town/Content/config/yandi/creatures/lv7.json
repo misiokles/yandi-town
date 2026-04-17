@@ -1,0 +1,213 @@
+{
+	"yandilv7" : {
+		"advMapAmount" : {"max" : 10, "min" : 4},
+		"aiValue" : 3698,
+		"attack" : 22,
+		"cost" : { "gold" :  1800},
+		"damage" : {"max" : 55, "min" : 25},
+		"defense" : 17,
+		"faction" : "yandi",
+		"fightValue" : 2946,
+		"graphics" : {
+            "animationTime" : { "attack" : 1, "idle" : 10, "walk" : 0.8 },
+			"animation" : "yandi/creatures/battle/lv7.json",
+			"map" : "yandi/creatures/map/lv7.json",
+			"iconSmall" : "yandi/creatures/iconsSmall/lv7s.bmp",
+			"iconLarge" : "yandi/creatures/iconsBig/lv7b.bmp",
+			"timeBetweenFidgets" : 1,
+			"missile" :
+			{
+				"projectile": "yandi/creatures/projectile/shot211.def",
+				"attackClimaxFrame" : 7,
+				"offset" :
+				{
+					"upperX" : 38,
+					"upperY" : -65,
+					"middleX" : 36,
+					"middleY" : -59,
+					"lowerX" : 21,
+					"lowerY" : -50
+				},
+				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+			}
+		},
+		"growth" : 1,
+		"shots" : 8,
+		"hitPoints" : 180,
+		"speed" : 14,
+        "doubleWide" : true,
+		"level" : 7,
+		"upgrades": ["yandilv7up"],
+		"name" : { "plural" : "Jintu Ba", "singular" : "Jintu Ba" },
+		"sound" : {
+			"attack" : "TempATTK.wav",
+			"defend" : "TempDFND.wav",
+			"killed" : "TempDEAD.wav",
+			"move" : "TempMOVE.wav",
+			"wince" : "TempWNCE.wav"
+		},
+		 "abilities":
+		{
+			
+			"canShoot" :
+			{
+				"type" : "SHOOTER"			
+			},
+			"king": 
+			{	
+			   "type" : "KING", 
+			   "val": 2 
+			},
+			"magicMirror":
+			{ 
+			    "type" : "MAGIC_MIRROR",		
+				"val" : 20	
+			},
+			"magicResistance" :
+			{
+				"type" : "SPELL_DAMAGE_REDUCTION",
+				"subtype" : "spellSchool.any",
+				"val" : 30
+			},
+			"canCast" :
+			{	
+			    "type" : "SPELLCASTER",
+				"subtype" : "spell.protectEarth",	
+				"val" : 3
+			},
+			"castSpeed" :	
+			{
+				"type" : "SPELLCASTER",
+				"subtype" : "spell.destroyUndead",
+				"val" : 3	
+			},
+			"canprayer" :
+			{	
+			    "type" : "SPELLCASTER",
+				"subtype" : "spell.prayer",	
+				"val" : 2	
+			},
+			"spellpower" :	
+			{
+				"type" : "CREATURE_SPELL_POWER",	
+				"val" : 100	
+			},
+            "castsAmount" :	
+			{
+				"type" : "CASTS",	
+				"val" : 5	
+			},
+            "enchant" :	
+			{
+				"type" : "CREATURE_ENCHANT_POWER",	
+				"val" : 1	
+			},
+			"paralize" :
+			{
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.earthquake",
+				"val" : 100
+			},
+			"castsBless" :
+			{
+				"type" : "ENCHANTER",
+				"subtype" : "spell.bless",
+				"val" : 3
+			},
+			"symbiosis" :
+			{
+				"type" : "ENCHANTER",
+				"subtype" : "spell.resurrection",
+				"val" : 3
+			},
+			"castsCure" :
+			{   
+			    "type" : "ENCHANTER",
+				"subtype" : "spell.cure",
+				"val" : 3
+			},
+			"enchanted" :
+			{
+				"type" : "ENCHANTED",
+				"subtype" : "spell.prayer",
+				"val" : 2
+			},
+			"poisonous" : 
+			{
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.poison",
+				"val" : 15,
+				"addInfo" : [0,2]	
+			},	
+			"regeneration" :
+			{
+				"type" : "HP_REGENERATION",
+				"val" : 50
+			},			
+			"castsHaste" :
+			{
+				"type" : "ENCHANTER",
+				"subtype" : "spell.haste",
+				"val" : 3
+			},
+			"decimation" :
+			{
+				"type" : "DESTRUCTION",
+                "subtype" : "destructionKillPercentage",
+                "val" : 25,
+				"addInfo" : 20
+			}
+		},
+		"stackExperience" :
+		[
+			{
+				"bonus" :
+				{
+					"subtype" : "primarySkill.attack",
+					"type" : "PRIMARY_SKILL"
+				},
+				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
+			},	
+			{
+				"bonus" :
+				{
+					"subtype" : "primarySkill.defence",
+					"type" : "PRIMARY_SKILL"
+				},
+				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
+			},
+			{
+				"bonus" :
+				{
+					"subtype" : "creatureDamageBoth",
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
+			},
+			{
+				"bonus" :
+				{
+					"subtype" : "creatureDamageBoth",
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "ENCHANTED",
+					"subtype" : "spell.prayer"
+				},
+				"values" : [ 0, 0, 0, 1, 1, 2, 2, 3, 3, 3 ]	
+			},
+			
+			{
+				"bonus" :
+				{
+					"type" : "STACKS_SPEED"
+				},
+				"values" : [ 0, 0, 0, 1, 1, 1, 1, 1, 1, 2 ]
+			}
+		]	
+	}
+}

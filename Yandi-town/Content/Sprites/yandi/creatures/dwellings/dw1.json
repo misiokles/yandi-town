@@ -1,0 +1,11 @@
+{
+    "images": [
+        {
+            "group": 0,
+            "frame": 0,
+            "file": "01.png",
+			"generateShadow" : 2
+        }
+    ],
+    "basepath": "yandi/creatures/dwellings/dw1/"
+}

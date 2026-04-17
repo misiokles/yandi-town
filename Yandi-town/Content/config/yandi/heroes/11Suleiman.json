@@ -1,0 +1,89 @@
+{
+	"yandiesuleiman":
+	{
+		"class": "yandiMagic",
+		"female": false,
+		"images":
+		{
+			"specialtySmall": "yandi/heroes/11Suleiman/s-spec139.bmp",
+			"specialtyLarge": "yandi/heroes/11Suleiman/spec139.bmp",
+			"large": "yandi/heroes/11Suleiman/HPL009SH.bmp",
+			"small": "yandi/heroes/11Suleiman/HPS009SH.bmp"
+		},
+		"army":
+		[
+			{ "creature": "yandilv1", "min": 9, "max": 15 },
+			{ "creature": "yandilv2", "min": 6, "max": 9 },
+			{ "creature": "yandilv3", "min": 3, "max": 6 }
+		],
+		"skills":
+		[
+			{
+				"level": "basic",
+				"skill": "wisdom"
+			},
+			{
+				"level": "basic",
+				"skill": "resistance"
+			}
+		],
+		"texts":
+		{
+			"name": "Feng Chi",
+			"biography": "A direct descendant of the ancient Red Dragon Clan. Dissatisfied with the dragon clan's philosophy of 'hiding and seeking comfort', he voluntarily took the dragon clan treasure 'Burning Flame Scale Armor' and followed the Yandi tribe, becoming Yan Chen's most trusted 'wall-breaking blade'. When crossing through time and space, he transformed into human form to guard the flank of the Flame Pivot Altar. When surrounded by several abyssal lava monsters in the temporal currents, he revealed his 30-zhang (approx. 100 meters) red dragon true form at the critical moment, incinerating the monsters with Heaven Burning Crimson Flame Dragon Breath, opening a safe passage for the tribe's migration. After settling in Jadam, he used dragon clan secret arts to form the 'Dragon Flame Guard' — selecting elite warriors from the tribe and tempering their combat power with his own dragon energy. He also used the Red Dragon Clan's flame energy to nourish the fire energy nodes of the volcanic plain, doubling the power of Yandi City's flame magic. He was utterly loyal to Yan Chen, considering it his dragon clan mission to protect the flame seed of Yandi City. In the decisive battle, he again revealed his red dragon true form, engaging in direct combat with the dark magical beast leader 'Erosion Bone Demon Serpent' raised by the Chiyou remnant. His crimson flame dragon breath not only burned over a thousand undead troops but also directly pierced the 'Dark Shield' cast by the dark mages. Coordinating with Yan Chen's Flame Pivot Barrier to form a 'Flame Dragon Combined Attack', he laid the key foundation for the allied forces to break through the enemy's core camp.",
+			"specialty":
+			{
+				"description": "Vanguard units under his command gain +3 attack and +3 morale, with an additional 30% damage bonus against enemy formations. Attacks ignore 2 points of enemy defense. There is a 10% chance to knock back an enemy unit by 1 tile and cause stun (cannot act for 1 turn). When attacking, there is a 15% chance to trigger 'Earthquake Tremor' (dealing 5 damage to enemy units within 2 tiles and applying a 'Slow' effect).",
+				"tooltip": "Crimson Flame Heaven-Devouring Art",
+				"name": "Crimson Flame Heaven-Devouring Art"
+			}
+		},
+		"spellbook":
+		[
+			"earthquake"
+		],
+		"specialty": {
+			"creature": "yandilv3",
+			"bonuses": {
+				"setAflame": {
+					"type": "SPELL_AFTER_ATTACK",
+					"addInfo": [1, 0],
+					"subtype": "spell.earthquake",
+					"val": 33,
+					"limiters": [ { "faction": "yandi", "type": "CREATURE_FACTION_LIMITER" } ]
+				},
+				"setAflameDuration": {
+					"type": "CREATURE_ENCHANT_POWER",
+					"val": 3,
+					"limiters": [ "allOf",
+						{ "type": "CREATURE_FACTION_LIMITER", "parameters": ["yandi"] }
+					]
+				},
+				"salamanderReceptive": {
+					"type": "RECEPTIVE",
+					"limiters": [ {
+						"type": "CREATURE_FACTION_LIMITER",
+						"parameters": ["yandi"]
+					} ]
+				},
+				"salamanderEnchantSpeed": {
+					"type": "STACKS_SPEED",
+					"val": 2,
+					"limiters": [ { "faction": "yandi", "type": "CREATURE_FACTION_LIMITER" } ]
+				},
+				"salamanderEnchantDamage": {
+					"type": "CREATURE_DAMAGE",
+					"subtype": "creatureDamageBoth",
+					"val": 2,
+					"limiters": [ { "faction": "yandi", "type": "CREATURE_FACTION_LIMITER" } ]
+				},
+				"salamanderEnchantMorale": {
+					"type": "MORALE",
+					"val": 1,
+					"valueType": "INDEPENDENT_MAX",
+					"limiters": [ { "faction": "yandi", "type": "CREATURE_FACTION_LIMITER" } ]
+				}
+			}
+		}
+	}
+}

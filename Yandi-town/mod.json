@@ -1,0 +1,78 @@
+{
+	"name" : "Yandi Town",
+	"description" : "Yandi Town",
+	"author": "menzhiyuan",
+	"version" : "0.1.0",
+	"contact": "https://vk.com/",
+	"modType" : "Town",
+	"chinese" : {
+		"name" : "炎帝城",
+		"description" : "城镇mod：炎帝城城镇。"
+	},
+	"depends" : ["tides-of-war", "ruins-town", "andruids-expansion.initiative", "hota.interference", "andruids-expansion.powerbond"], 
+	"factions" :
+	[
+	"config/yandi/town/buildings.json",
+	"config/yandi/town/faction.json",
+	"config/yandi/town/puzzle.json",
+	"config/yandi/town/siege.json",
+	"config/yandi/town/structures.json"
+	],
+    "creatures" :
+    [
+    "config/yandi/creatures/lv1.json",
+	"config/yandi/creatures/lv1up.json",	
+	"config/yandi/creatures/lv1up2.json",
+	"config/yandi/creatures/lv2.json",
+	"config/yandi/creatures/lv2up.json",	
+	"config/yandi/creatures/lv2up2.json",
+	"config/yandi/creatures/lv3.json",
+	"config/yandi/creatures/lv3up.json",	
+	"config/yandi/creatures/lv3up2.json",
+	"config/yandi/creatures/lv4.json",
+	"config/yandi/creatures/lv4up.json",	
+	"config/yandi/creatures/lv4up2.json",
+	"config/yandi/creatures/lv5.json",
+	"config/yandi/creatures/lv5up.json",	
+	"config/yandi/creatures/lv5up2.json",
+	"config/yandi/creatures/lv6.json",
+	"config/yandi/creatures/lv6up.json",	
+	"config/yandi/creatures/lv6up2.json",
+	"config/yandi/creatures/lv7.json",
+	"config/yandi/creatures/lv7up.json",	
+	"config/yandi/creatures/lv7up2.json",
+	"config/yandi/creatures/lv7s1.json",
+	"config/yandi/creatures/lv7s2.json",
+	"config/yandi/creatures/lv7s3.json",
+	"config/yandi/creatures/lv7s4.json",
+	"config/yandi/creatures/commander.json"
+    ],
+	"heroClasses" :
+	[
+	"config/yandi/classes/yandiMagic.json",
+	"config/yandi/classes/yandiMight.json"
+	 ],
+    "heroes" :
+    [
+	"config/yandi/heroes/1Joseph.json",
+	"config/yandi/heroes/2Adrian.json",
+	"config/yandi/heroes/3Hilika.json",
+	"config/yandi/heroes/4Madan.json",
+	"config/yandi/heroes/5Jacquenas.json",
+	"config/yandi/heroes/6Ibn Fadland.json",
+	"config/yandi/heroes/7Uncle Ivan.json",
+	"config/yandi/heroes/8Rogue.json",
+	"config/yandi/heroes/9Marcus.json",
+	"config/yandi/heroes/10Xerxes.json",
+	"config/yandi/heroes/11Suleiman.json",
+	"config/yandi/heroes/12Sean.json",
+	"config/yandi/heroes/13Dalia.json",
+	"config/yandi/heroes/14Timur.json",
+	"config/yandi/heroes/15Iser.json",
+	"config/yandi/heroes/16Decken.json"
+    ],
+    "objects" :
+    [
+    "config/yandi/dwellings.json"
+    ]
+}

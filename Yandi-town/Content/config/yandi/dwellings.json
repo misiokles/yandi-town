@@ -1,0 +1,80 @@
+{
+	"core:creatureGeneratorCommon" : {
+		"types" : {
+			"yandiDwelling1" : {
+				"name" : "Celestial Fox Pavilion",
+				"creatures" : [[ "yandilv1" ]],
+				"templates" : {
+					"default" : {
+						"animation" : "yandi/creatures/dwellings/dw1.json",
+						"mask" : [ "VVV", "VVV", "VVV", "BAV" ]
+					}
+				}
+			},
+			"yandiDwelling2" : {
+				"name" : "Barbarian Frog Palace",
+				"creatures" : [[ "yandilv2" ]],
+				"templates" : {
+					"default" : {
+						"animation" : "yandi/creatures/dwellings/dw2.json",
+						"mask" : [ "VVV", "VVV", "VBA" ]
+					}
+				}
+			},
+			"yandiDwelling3" : {
+				"name" : "Immortal Palace",
+				"creatures" : [[ "yandilv3" ]],
+				"templates" : {
+					"default" : {	
+						"animation" : "yandi/creatures/dwellings/dw3.json",
+						"mask" : [ "VVV", "VVV", "ABV" ]
+					}
+				}
+			},
+			"yandiDwelling4" : {
+				"name" : "Asura Field",
+				"creatures" : [[ "yandilv4" ]],
+				"guards" : true,
+				"templates" : {
+					"default" : {
+						"animation" : "yandi/creatures/dwellings/dw4.json",
+						"mask" : [ "VVV", "VVV", "VVV", "VVV", "ABV" ]
+					}
+				}
+			},
+			"yandiDwelling5" : {
+				"name" : "Flame Demon Hall",
+				"creatures" : [[ "yandilv5" ]],
+				"guards" : true,
+				"templates" : {
+					"default" : {
+						"animation" : "yandi/creatures/dwellings/dw5.json",
+						"mask" : [ "VVV", "VVV", "VVV", "VBA" ]
+					}
+				}
+			},
+			"yandiDwelling6" : {
+				"name" : "Mystic Heaven Pavilion",
+				"creatures" : [[ "yandilv6" ]],
+				"guards" : true,
+				"templates" : {
+					"default" : {
+						"animation" : "yandi/creatures/dwellings/dw6.json",
+						"mask" : [ "VVVV", "VVVV", "VVBA" ]
+					}
+				}
+			},
+			"yandiDwelling7" : {
+				"name" : "Flame Emperor Palace",
+				"creatures" : [[ "yandilv7" ]],
+				"guards" : true,
+				"templates" : {
+					"default" : {
+			 "animation" : "yandi/creatures/dwellings/dw7.json",
+		       "mask" : [ "VVVV", "VVBV", "VVAV", "VVVV" ]
+					}
+				}
+			}
+		}
+	}	
+}

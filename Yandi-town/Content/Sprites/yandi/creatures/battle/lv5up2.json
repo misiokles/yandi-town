@@ -1,0 +1,294 @@
+{
+    "images": [
+        {
+            "group": 0,
+            "frame": 0,
+            "file": "00100.PNG"
+        },
+        {
+            "group": 0,
+            "frame": 1,
+            "file": "00101.PNG"
+        },
+        {
+            "group": 0,
+            "frame": 2,
+            "file": "00102.PNG"
+        },
+        {
+            "group": 0,
+            "frame": 3,
+            "file": "00103.PNG"
+        },
+        {
+            "group": 0,
+            "frame": 4,
+            "file": "00104.PNG"
+        },
+        {
+            "group": 0,
+            "frame": 5,
+            "file": "00105.PNG"
+        },
+        {
+            "group": 1,
+            "frame": 0,
+            "file": "00020.PNG",
+			"generateOverlay" : 1
+        },
+        {
+            "group": 1,
+            "frame": 1,
+            "file": "00021.PNG",
+			"generateOverlay" : 1
+        },
+        {
+            "group": 1,
+            "frame": 2,
+            "file": "00022.PNG",
+			"generateOverlay" : 1
+        },
+        {
+            "group": 1,
+            "frame": 3,
+            "file": "00023.PNG",
+			"generateOverlay" : 1
+        },
+        {
+            "group": 2,
+            "frame": 0,
+            "file": "00020.PNG"
+        },
+        {
+            "group": 2,
+            "frame": 1,
+            "file": "00021.PNG"
+        },
+        {
+            "group": 2,
+            "frame": 2,
+            "file": "00022.PNG"
+        },
+        {
+            "group": 2,
+            "frame": 3,
+            "file": "00023.PNG"
+        },
+        {
+            "group": 3,
+            "frame": 0,
+            "file": "00020.PNG"
+        },
+        {
+            "group": 3,
+            "frame": 1,
+            "file": "00021.PNG"
+        },
+        {
+            "group": 3,
+            "frame": 2,
+            "file": "00022.PNG"
+        },
+        {
+            "group": 3,
+            "frame": 2,
+            "file": "00023.PNG"
+        },
+        {
+            "group": 4,
+            "frame": 0,
+            "file": "00100.PNG"
+        },
+        {
+            "group": 4,
+            "frame": 1,
+            "file": "00245.PNG"
+        },
+        {
+            "group": 4,
+            "frame": 2,
+            "file": "00246.PNG"
+        },
+        {
+            "group": 5,
+            "frame": 0,
+            "file": "00280.PNG"
+        },
+        {
+            "group": 5,
+            "frame": 1,
+            "file": "00281.PNG"
+        },
+        {
+            "group": 5,
+            "frame": 2,
+            "file": "00282.PNG"
+        },
+        {
+            "group": 5,
+            "frame": 3,
+            "file": "00283.PNG"
+        },
+        {
+            "group": 5,
+            "frame": 4,
+            "file": "00284.PNG"
+        },
+        {
+            "group": 5,
+            "frame": 5,
+            "file": "00285.PNG"
+        },
+        {
+            "group": 7,
+            "frame": 0,
+            "file": "00245.PNG"
+        },
+        {
+            "group": 7,
+            "frame": 1,
+            "file": "00246.PNG"
+        },
+        {
+            "group": 7,
+            "frame": 2,
+            "file": "00247.PNG"
+        },
+        {
+            "group": 8,
+            "frame": 0,
+            "file": "00247.PNG"
+        },
+        {
+            "group": 8,
+            "frame": 1,
+            "file": "00246.PNG"
+        },
+        {
+            "group": 8,
+            "frame": 2,
+            "file": "00245.PNG"
+        },
+        {
+            "group": 9,
+            "frame": 0,
+            "file": "00245.PNG"
+        },
+        {
+            "group": 9,
+            "frame": 1,
+            "file": "00246.PNG"
+        },
+        {
+            "group": 9,
+            "frame": 2,
+            "file": "00247.PNG"
+        },
+        {
+            "group": 10,
+            "frame": 0,
+            "file": "00247.PNG"
+        },
+        {
+            "group": 10,
+            "frame": 1,
+            "file": "00246.PNG"
+        },
+        {
+            "group": 10,
+            "frame": 2,
+            "file": "00245.PNG"
+        },
+        {
+            "group": 11,
+            "frame": 0,
+            "file": "00170.PNG"
+        },
+        {
+            "group": 11,
+            "frame": 1,
+            "file": "00171.PNG"
+        },
+        {
+            "group": 11,
+            "frame": 2,
+            "file": "00172.PNG"
+        },
+        {
+            "group": 11,
+            "frame": 3,
+            "file": "00173.PNG"
+        },
+        {
+            "group": 11,
+            "frame": 4,
+            "file": "00174.PNG"
+        },
+        {
+            "group": 11,
+            "frame": 5,
+            "file": "00175.PNG"
+        },
+        {
+            "group": 12,
+            "frame": 0,
+            "file": "00180.PNG"
+        },
+        {
+            "group": 12,
+            "frame": 1,
+            "file": "00181.PNG"
+        },
+        {
+            "group": 12,
+            "frame": 2,
+            "file": "00182.PNG"
+        },
+        {
+            "group": 12,
+            "frame": 3,
+            "file": "00183.PNG"
+        },
+        {
+            "group": 12,
+            "frame": 4,
+            "file": "00184.PNG"
+        },
+        {
+            "group": 12,
+            "frame": 5,
+            "file": "00185.PNG"
+        },
+        {
+            "group": 13,
+            "frame": 0,
+            "file": "00190.PNG"
+        },
+        {
+            "group": 13,
+            "frame": 1,
+            "file": "00191.PNG"
+        },
+        {
+            "group": 13,
+            "frame": 2,
+            "file": "00192.PNG"
+        },
+        {
+            "group": 13,
+            "frame": 3,
+            "file": "00193.PNG"
+        },
+        {
+            "group": 13,
+            "frame": 4,
+            "file": "00194.PNG"
+        },
+        {
+            "group": 13,
+            "frame": 5,
+            "file": "00195.PNG"
+        }
+    ],
+    "basepath": "yandi/creatures/battle/lv5up2/"
+}

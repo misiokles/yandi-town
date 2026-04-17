@@ -1,0 +1,56 @@
+{
+	"yandiehilika":
+	{
+		"class": "yandiMight",
+		"female": false,
+		"images":
+		{
+			"specialtySmall": "yandi/heroes/3Hilika/s-spec131.bmp",
+			"specialtyLarge": "yandi/heroes/3Hilika/spec131.bmp",
+			"large": "yandi/heroes/3Hilika/HPL006PL.bmp",
+			"small": "yandi/heroes/3Hilika/HPS006PL.bmp"
+		},
+		"army":
+		[
+			{ "creature": "yandilv1", "min": 19, "max": 25 },
+			{ "creature": "yandilv1up", "min": 16, "max": 19 },
+			{ "creature": "yandilv2", "min": 13, "max": 16 }
+		],
+		"skills":
+		[
+			{
+				"level": "basic",
+				"skill": "leadership"
+			},
+			{
+				"level": "basic",
+				"skill": "logistics"
+			}
+		],
+		"texts":
+		{
+			"name": "Chi Yao",
+			"biography": "A forestry and animal husbandry expert of the Yandi tribe, skilled in tree planting and livestock domestication. After crossing through time and space, he discovered that Jadam's forests were rich in resources, but some trees were toxic and unsuitable for direct use. He led his team to clear the toxic trees and plant fast-growing Chinese forests, which not only met the timber needs for city construction but also improved the surrounding ecological environment. In animal husbandry, he hybridized Chinese livestock with native Jadam magical beasts, cultivating livestock varieties that combined docility and high yield. The hybrid 'Yan Oxen' not only produced delicious meat but also helped with farming. The 'Fire Feather Chickens' laid eggs with flame energy, which became an important source of energy for mages. He also drew on the indigenous magical beast taming techniques to train some combat-capable magical beasts (such as flame lizards), which became a special fighting force for Yandi City.",
+			"specialty":
+			{
+				"description": "Increases city wood production by +65%, creature growth by +50%, and stone production by +70%. Gains an additional 15% combat-capable magical beast troops. Increases health by +5% in battle.",
+				"tooltip": "Flora and Animal Husbandry Art",
+				"name": "Flora and Animal Husbandry Art"
+			}
+		},
+		"specialty": {
+			"creature": "yandilv1",
+			"bonuses": {
+				"damageReduction2": {
+					"type": "GENERAL_DAMAGE_REDUCTION",
+					"subtype": "damageTypeRanged",
+					"val": 20,
+					"limiters": [ {
+						"type": "CREATURE_FACTION_LIMITER",
+						"faction": "yandi"
+					} ]
+				}
+			}
+		}
+	}
+}

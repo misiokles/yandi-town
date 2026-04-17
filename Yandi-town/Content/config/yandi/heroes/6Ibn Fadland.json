@@ -1,0 +1,65 @@
+{
+	"yandiefadland":
+	{
+		"class": "yandiMight",
+		"female": false,
+		"images":
+		{
+			"specialtySmall": "yandi/heroes/6Ibn Fadland/s-spec134.bmp",
+			"specialtyLarge": "yandi/heroes/6Ibn Fadland/spec134.bmp",
+			"large": "yandi/heroes/6Ibn Fadland/HPL007KN.bmp",
+			"small": "yandi/heroes/6Ibn Fadland/HPS007KN.bmp"
+		},
+		"army":
+		[
+			{ "creature": "yandilv1", "min": 9, "max": 15 },
+			{ "creature": "yandilv2", "min": 6, "max": 9 },
+			{ "creature": "yandilv3", "min": 3, "max": 6 }
+		],
+		"skills":
+		[
+			{
+				"level": "basic",
+				"skill": "armorer"
+			},
+			{
+				"level": "basic",
+				"skill": "offence"
+			}
+		],
+		"texts":
+		{
+			"name": "Man Shi",
+			"biography": "Originally the chieftain of an indigenous tribe on the Jadam volcanic plain, his tribe had long been plagued by undead and magical beasts and was on the verge of extinction. After the Yandi tribe arrived, Yan Hao used farming techniques and herbs to help his people. Deeply moved, Man Shi voluntarily led his tribe to join them. He was familiar with the terrain of the Jadam continent and the habits of magical beasts, combining the indigenous heavy defense tactics with Yandi tribe battle formations to form the 'Rock Shield Legion'. Possessing immense strength, he could lift hundreds of pounds of fire-resistant stone. During the construction of Yandi City, he led his people to quarry stone and reinforce the city walls, becoming the main builder of the city's defense system. When the Chiyou remnant attacked the city, he personally guarded the north gate. With the tight defense of his heavy infantry, he withstood multiple waves of enemy attacks. The north gate thus became known as the 'Man Shi Barrier'. He was utterly loyal to Yandi City and was an important symbol of tribal integration.",
+			"specialty":
+			{
+				"description": "Heavy units under his command gain +3 defense and +20% health. When attacked, there is a 15% chance to trigger 'Block', reducing damage by 50%.",
+				"tooltip": "Bedrock Territory Defense Art",
+				"name": "Bedrock Territory Defense Art"
+			}
+		},
+		"specialty": {
+			"bonuses": {
+				"offence": {
+					"subtype": "damageTypeMelee",
+					"type": "PERCENTAGE_DAMAGE_BOOST",
+					"updater": "TIMES_HERO_LEVEL",
+					"val": 5,
+					"valueType": "PERCENT_TO_TARGET_TYPE",
+					"targetSourceType": "SECONDARY_SKILL"
+				},
+				"damage": {
+					"type": "CREATURE_DAMAGE",
+					"subtype": "creatureDamageBoth",
+					"val": 2,
+					"valueType": "BASE_NUMBER"
+				},
+				"potionMorale": {
+					"type": "MORALE",
+					"val": 2,
+					"valueType": "ADDITIVE_VALUE"
+				}
+			}
+		}
+	}
+}

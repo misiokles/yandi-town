@@ -1,0 +1,165 @@
+{
+    "images": [
+        {
+            "group": 0,
+            "frame": 0,
+            "file": "00030.png"
+        },
+        {
+            "group": 1,
+            "frame": 0,
+            "file": "00030.png"
+        },
+        {
+            "group": 1,
+            "frame": 1,
+            "file": "00031.png"
+        },
+        {
+            "group": 1,
+            "frame": 2,
+            "file": "00032.png"
+        },
+        {
+            "group": 1,
+            "frame": 3,
+            "file": "00033.png"
+        },
+        {
+            "group": 1,
+            "frame": 4,
+            "file": "00033.png"
+        },
+        {
+            "group": 1,
+            "frame": 5,
+            "file": "00032.png"
+        },
+        {
+            "group": 1,
+            "frame": 6,
+            "file": "00031.png"
+        },
+        {
+            "group": 1,
+            "frame": 7,
+            "file": "00030.png"
+        },
+        {
+            "group": 2,
+            "frame": 0,
+            "file": "00190.png"
+        },
+        {
+            "group": 2,
+            "frame": 1,
+            "file": "00191.png"
+        },
+        {
+            "group": 2,
+            "frame": 2,
+            "file": "00192.png"
+        },
+        {
+            "group": 2,
+            "frame": 3,
+            "file": "00195.png"
+        },
+        {
+            "group": 2,
+            "frame": 4,
+            "file": "00192.png"
+        },
+        {
+            "group": 2,
+            "frame": 5,
+            "file": "00191.png"
+        },
+        {
+            "group": 2,
+            "frame": 6,
+            "file": "00190.png"
+        },
+        {
+            "group": 3,
+            "frame": 0,
+            "file": "00190.png"
+        },
+        {
+            "group": 3,
+            "frame": 1,
+            "file": "00191.png"
+        },
+        {
+            "group": 3,
+            "frame": 2,
+            "file": "00192.png"
+        },
+        {
+            "group": 3,
+            "frame": 3,
+            "file": "00193.png"
+        },
+        {
+            "group": 3,
+            "frame": 4,
+            "file": "00194.png"
+        },
+        {
+            "group": 3,
+            "frame": 5,
+            "file": "00195.png"
+        },
+        {
+            "group": 3,
+            "frame": 6,
+            "file": "00192.png"
+        },
+        {
+            "group": 3,
+            "frame": 7,
+            "file": "00193.png"
+        },
+        {
+            "group": 4,
+            "frame": 0,
+            "file": "00190.png"
+        },
+        {
+            "group": 4,
+            "frame": 1,
+            "file": "00191.png"
+        },
+        {
+            "group": 4,
+            "frame": 2,
+            "file": "00192.png"
+        },
+        {
+            "group": 4,
+            "frame": 3,
+            "file": "00193.png"
+        },
+        {
+            "group": 4,
+            "frame": 4,
+            "file": "00194.png"
+        },
+        {
+            "group": 4,
+            "frame": 5,
+            "file": "00195.png"
+        },
+        {
+            "group": 4,
+            "frame": 6,
+            "file": "00192.png"
+        },
+        {
+            "group": 4,
+            "frame": 7,
+            "file": "00193.png"
+        }
+    ],
+    "basepath": "yandi/battle/CH03/"
+}

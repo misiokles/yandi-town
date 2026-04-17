@@ -1,0 +1,62 @@
+{
+	"yandiedecken":
+	{
+		"class": "yandiMagic",
+		"female": true,
+		"images":
+		{
+			"specialtySmall": "yandi/heroes/16Decken/s-spec144.bmp",
+			"specialtyLarge": "yandi/heroes/16Decken/spec144.bmp",
+			"large": "yandi/heroes/16Decken/HPL015CL.bmp",
+			"small": "yandi/heroes/16Decken/HPS015CL.bmp"
+		},
+		"army":
+		[
+			{ "creature": "yandilv1", "min": 9, "max": 15 },
+			{ "creature": "yandilv2", "min": 6, "max": 9 },
+			{ "creature": "yandilv3", "min": 3, "max": 6 }
+		],
+		"skills":
+		[
+			{ "skill": "estates", "level": "basic" },
+			{ "skill": "archery", "level": "basic" }
+		],
+		"texts":
+		{
+			"name": "Chi Yuan",
+			"biography": "A descendant of the ancient Red Dragon Clan. Tired of the internal conflicts within the dragon clan, he voluntarily followed the Yandi tribe during their migration, becoming Yan Hao's most trusted combat pillar. When crossing through time and space, he transformed into human form to guard the flank of the altar. When attacked by lava monsters in the temporal currents, he revealed his dragon form and incinerated several monsters with his crimson flame dragon breath, carving out a path for the tribe. After settling in Jadam, he formed the 'Dragon Flame Guard', teaching the tribe dragon clan combat techniques and using his own dragon energy to nourish the fire energy of the volcanic plain, doubling the power of Yandi City's flame magic. He was utterly loyal to Yan Hao, considering it his duty to protect Yandi City. In the decisive battle, he again revealed his dragon form, engaging in direct combat with the dark magical beast leader of the Chiyou remnant. His crimson flame dragon breath not only burned a large number of undead troops but also broke the dark mages' dark shields, laying a key foundation for the allied forces' victory.",
+			"specialty":
+			{
+				"description": "Increases own dragon breath damage by +30. Dragon clan units under his command gain +4 attack, +2 defense, and +3 speed. Damage against dark creatures and undead units is increased by +50%. Dragon breath attacks apply a 'Combustion' effect (target takes 10 damage per turn for 3 turns). Gains the 'Dragon's Might' trait (enemy units have -2 morale).",
+				"tooltip": "River-Burning Mountain-Devouring Art",
+				"name": "River-Burning Mountain-Devouring Art"
+			}
+		},
+		"spellbook":
+		[
+			"viewEarth"
+		],
+		"specialty": {
+			"bonuses": {
+				"diplomacy":
+				{
+					"targetSourceType": "SECONDARY_SKILL",
+					"type": "WANDERING_CREATURES_JOIN_BONUS",
+					"val": 5,
+					"updater": {
+						"valPer20": 5,
+						"stepSize": 1,
+						"type": "GROWS_WITH_LEVEL"
+					},
+					"valueType": "PERCENT_TO_BASE"
+				},
+				"surrderDiscount":
+				{
+					"type": "SURRENDER_DISCOUNT",
+					"val": 50,
+					"propagator": "HERO"
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,78 @@
+{
+	"yandietimur":
+	{
+		"class": "yandiMagic",
+		"female": false,
+		"images":
+		{
+			"specialtySmall": "yandi/heroes/14Timur/s-spec142.bmp",
+			"specialtyLarge": "yandi/heroes/14Timur/spec142.bmp",
+			"large": "yandi/heroes/14Timur/HPL012CL.bmp",
+			"small": "yandi/heroes/14Timur/HPS012CL.bmp"
+		},
+		"army":
+		[
+			{ "creature": "yandilv1", "min": 9, "max": 15 },
+			{ "creature": "yandilv2", "min": 6, "max": 9 },
+			{ "creature": "yandilv3", "min": 3, "max": 6 }
+		],
+		"skills":
+		[
+			{
+				"level": "basic",
+				"skill": "logistics"
+			},
+			{
+				"level": "basic",
+				"skill": "offence"
+			}
+		],
+		"texts":
+		{
+			"name": "Huang Zheng",
+			"biography": "A lightning magic prodigy of the Yandi tribe, skilled in using thunder energy to fight. His personality is impetuous and brave, making him the core combatant of battle magic. When crossing through time and space, his magical energy was disrupted by the temporal currents, but he unexpectedly awakened a stronger thunder power — the ability to directly summon thunder energy from the sky, which is highly effective against dark creatures and the undead. Upon arriving in Jadam, he used his thunder power to eliminate the magical beasts harassing the tribe, demonstrating his formidable strength. He can cast thunder shields to protect himself and use thunder power to strike enemy forces, earning great merit in many small-scale battles. In the decisive battle, he unleashed the 'Thunder Evil-Breaking Art', sending a massive thunderbolt crashing into the enemy camp, not only destroying a large number of undead troops but also paralyzing the main warriors of the Chiyou remnant, creating the perfect opportunity for the allied forces to charge. His lightning magic, combined with Ao Chi's dragon breath, formed the powerful 'Flame-Thunder Combined Attack', terrifying the enemy forces.",
+			"specialty":
+			{
+				"description": "Reduces lightning magic cost by 3 points and increases power by 30%. Has a 15% chance to paralyze the target for 2 turns. 'Chain Lightning' can strike 2 additional targets (no damage decay). When casting lightning magic, there is a 10% chance to trigger 'Thunder Domain' (dealing 10 lightning damage to enemy units within 3 tiles, with a 'Paralyze' effect).",
+				"tooltip": "Thunder Evil-Breaking Art",
+				"name": "Thunder Evil-Breaking Art"
+			}
+		},
+		"specialty": {
+			"bonuses": {
+				"navigation": {
+					"subtype": "heroMovementSea",
+					"type": "MOVEMENT",
+					"val": 500
+				},
+				"logistics": {
+					"subtype": "heroMovementLand",
+					"type": "MOVEMENT",
+					"val": 500
+				},
+				"ship": {
+					"type": "FREE_SHIP_BOARDING",
+					"val": 0,
+					"propagator": "TEAM"
+				},
+				"summonBoat": {
+					"type": "SPELL",
+					"val": 3,
+					"subtype": "spell.summonBoat",
+					"propagator": "TEAM"
+				},
+				"scuttleBoat": {
+					"type": "SPELL",
+					"val": 3,
+					"subtype": "spell.scuttleBoat",
+					"propagator": "TEAM"
+				},
+				"whirlpool": {
+					"type": "WHIRLPOOL_PROTECTION",
+					"val": 0,
+					"propagator": "TEAM"
+				}
+			}
+		}
+	}
+}

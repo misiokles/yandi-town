@@ -1,0 +1,45 @@
+{
+    "images": [
+        {
+            "group": 0,
+            "frame": 0,
+            "file": "00020.PNG"
+        },
+		 {
+            "group": 0,
+            "frame": 0,
+            "file": "00020.PNG"
+        },
+        {
+            "group": 0,
+            "frame": 1,
+            "file": "00021.PNG"
+        },
+		{
+            "group": 0,
+            "frame": 1,
+            "file": "00021.PNG"
+        },
+        {
+            "group": 0,
+            "frame": 2,
+            "file": "00022.PNG"
+        },
+		{
+            "group": 0,
+            "frame": 2,
+            "file": "00022.PNG"
+        },
+        {
+            "group": 0,
+            "frame": 3,
+            "file": "00023.PNG"
+        },
+        {
+            "group": 0,
+            "frame": 3,
+            "file": "00023.PNG"
+        }
+    ],
+    "basepath": "yandi/creatures/map/lv2up/"
+}
